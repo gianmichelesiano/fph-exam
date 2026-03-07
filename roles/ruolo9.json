@@ -1,0 +1,100 @@
+[
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente di 45 anni desidera effettuare il richiamo contro la meningoencefalite da zecche (FSME) in farmacia. Ha completato l'immunizzazione di base (3 dosi) 10 anni fa. Qual è la raccomandazione corretta?",
+    "opzioni": {
+      "A": "Deve ricominciare l'intero ciclo di 3 dosi poiché sono passati più di 5 anni.",
+      "B": "È sufficiente una singola dose di richiamo, con l'indicazione di ripeterla ogni 10 anni.",
+      "C": "Deve ricevere due dosi a distanza di un mese l'una dall'altra.",
+      "D": "In farmacia non è possibile effettuare richiami oltre i 5 anni dall'ultima dose."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Una vaccinazione di base completa contro la FSME fornisce protezione di lunga durata e il richiamo è raccomandato a distanza di 10 anni con una singola dose."
+  },
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "kprim",
+    "domanda": "Riguardo alla tecnica di iniezione e alla procedura di vaccinazione in farmacia, valuta la correttezza delle seguenti affermazioni:",
+    "opzioni": {
+      "A": "Per i vaccini somministrati per via intramuscolare (i.m.), l'aspirazione prima dell'iniezione non è più raccomandata.",
+      "B": "I vaccini inattivati contenenti adiuvanti devono essere somministrati preferibilmente per via sottocutanea per massimizzare la risposta immunitaria.",
+      "C": "L'angolo di inserimento per un'iniezione intramuscolare nel muscolo deltoide deve essere di 90°.",
+      "D": "In pazienti in terapia anticoagulante, è necessario applicare una forte compressione sul sito di iniezione per almeno 2 minuti senza frizionare."
+    },
+    "risposta_corretta": "VFVV",
+    "motivazione": "L'aspirazione non è più raccomandata per i vaccini. I vaccini inattivati con adiuvanti vanno somministrati i.m. (non s.c.) per migliorare la risposta e ridurre reazioni locali. L'angolo i.m. corretto è 90° e la compressione post-iniezione per anticoagulati è di almeno 2 min."
+  },
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "multipla_scelta",
+    "domanda": "Una cliente di 35 anni richiede la vaccinazione antinfluenzale e dichiara di assumere Prednisone 30 mg/die da 3 settimane. Come deve comportarsi il farmacista?",
+    "opzioni": {
+      "A": "Può procedere regolarmente con la vaccinazione poiché l'influenza è un vaccino inattivato.",
+      "B": "Deve posticipare la vaccinazione di sole 48 ore.",
+      "C": "Deve indirizzare la paziente al medico, poiché una terapia con steroidi ≥ 20 mg/giorno per più di 14 giorni è un criterio di esclusione per la vaccinazione in farmacia.",
+      "D": "Può vaccinare la paziente solo se firma un modulo di scarico di responsabilità aggiuntivo."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "L'assunzione di steroidi ad alte dosi (≥ 20 mg/die per > 14 giorni) è un criterio di esclusione per la vaccinazione in farmacia e richiede una valutazione medica."
+  },
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "kprim",
+    "domanda": "In merito alla conservazione dei vaccini e alla farmacovigilanza, quali delle seguenti affermazioni sono corrette?",
+    "opzioni": {
+      "A": "I vaccini vivi attenuati (come MORV) devono essere conservati tra +2°C e +8°C garantendo una catena del freddo ininterrotta.",
+      "B": "Un effetto indesiderato grave deve essere notificato a Swissmedic entro un termine massimo di 15 giorni.",
+      "C": "Per una conservazione ottimale, i vaccini devono essere riposti preferibilmente nei ripiani della porta del frigorifero.",
+      "D": "La notifica di un sospetto effetto indesiderato richiede che il nesso di causalità con il vaccino sia già stato confermato da un esame medico."
+    },
+    "risposta_corretta": "VVFF",
+    "motivazione": "La catena del freddo è critica per i vaccini vivi. Gli effetti gravi vanno notificati entro 15 giorni. La porta del frigo è il punto più caldo e non è idonea. Per la notifica è sufficiente il solo sospetto, non serve la conferma del nesso causale."
+  },
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "multipla_scelta",
+    "domanda": "Durante un prelievo di sangue capillare per la misurazione della glicemia in farmacia, quale di queste azioni è corretta per non falsificare il risultato?",
+    "opzioni": {
+      "A": "Spremere con forza il polpastrello per far uscire più sangue possibile.",
+      "B": "Utilizzare la prima goccia di sangue che fuoriesce dopo la puntura.",
+      "C": "Asciugare la prima goccia di sangue con un tampone asciutto e utilizzare la seconda goccia.",
+      "D": "Pungere esattamente al centro del polpastrello, dove la sensibilità è maggiore."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "La prima goccia va asciugata e il dito non va compresso per evitare di diluire il campione con liquido interstiziale, che falserebbe il valore glicemico."
+  },
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "kprim",
+    "domanda": "In caso di shock anafilattico subito dopo una vaccinazione in farmacia, valuta le seguenti procedure d'emergenza:",
+    "opzioni": {
+      "A": "In presenza di una reazione anafilattica grave, la misura prioritaria è la somministrazione di Adrenalina tramite autoiniettore (es. EpiPen).",
+      "B": "Il dosaggio standard di adrenalina per un adulto è solitamente di 0.3 mg i.m.",
+      "C": "In caso di shock, il paziente deve essere posto immediatamente in posizione seduta per favorire l'ossigenazione.",
+      "D": "Ogni incidente vaccinale che richiede un intervento medico deve essere notificato a Swissmedic tramite il portale ElViS."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "L'adrenalina è il farmaco di prima scelta con dosaggio 0.3 mg per adulti. In caso di shock va adottata la posizione anti-shock (gambe sollevate), non quella seduta. La notifica tramite ElViS è obbligatoria per reazioni gravi."
+  },
+  {
+    "ruolo": 9,
+    "tema": "Vaccinazioni e prelievi",
+    "tipo": "multipla_scelta",
+    "domanda": "Un giovane di 25 anni si presenta per un controllo dello stato vaccinale. Secondo il calendario vaccinale svizzero, quale vaccinazione di richiamo è specificamente raccomandata a questa età?",
+    "opzioni": {
+      "A": "Un richiamo contro l'Epatite B indipendentemente dallo stato precedente.",
+      "B": "Un richiamo combinato dTpa (difterite, tetano, pertosse) con dosaggio ridotto per pertosse.",
+      "C": "La prima dose di vaccino contro l'Herpes Zoster.",
+      "D": "Solo una dose di richiamo contro la poliomielite (IPV)."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Il piano vaccinale svizzero prevede per gli adulti un richiamo regolare contro difterite e tetano, e specificamente all'età di 25 anni un richiamo contro la pertosse (dTpa)."
+  }
+]

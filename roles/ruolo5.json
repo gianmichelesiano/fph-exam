@@ -1,0 +1,142 @@
+[
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "multipla_scelta",
+    "domanda": "Qual è lo scopo principale dell'anamnesi retrograda durante il colloquio con il paziente in farmacia?",
+    "opzioni": {
+      "A": "Identificare il farmaco più economico disponibile per una determinata patologia.",
+      "B": "Dedurre patologie preesistenti o potenziali effetti collaterali partendo dalla lista dei farmaci assunti dal paziente.",
+      "C": "Sostituire la diagnosi medica con una valutazione puramente farmacologica.",
+      "D": "Compilare esclusivamente il modulo per la fatturazione delle prestazioni assicurative."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "L'anamnesi retrograda permette al farmacista di trarre conclusioni sulle malattie esistenti che il paziente potrebbe non aver menzionato o di identificare problemi causati da effetti collaterali indesiderati."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "kprim",
+    "domanda": "In base agli algoritmi medinform, quali dei seguenti sono considerati 'Red Flags' generali che richiedono triage medico?",
+    "opzioni": {
+      "A": "Età superiore ai 65 anni.",
+      "B": "Trauma rilevante avvenuto negli ultimi 14 giorni.",
+      "C": "Paziente in stato di gravidanza o allattamento.",
+      "D": "Peggioramento acuto dello stato di salute generale."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "Le linee guida indicano come Red Flags l'età > 65 anni, i traumi recenti (14 giorni), lo stato di gravidanza/allattamento e il peggioramento acuto dello stato generale."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "multipla_scelta",
+    "domanda": "Per la valutazione del dolore auricolare, il farmacista svizzero utilizza la regola mnemonica delle '5 S'. Quale dei seguenti gruppi di sintomi è corretto?",
+    "opzioni": {
+      "A": "Sordità, Sangue, Sonnolenza, Sinusite, Salivazione.",
+      "B": "Ipoacusia (Schwerhörigkeit), Dolore (Schmerzen), Secrezione (Sekretfluss), Ronzio (Sausen), Vertigini (Schwindel).",
+      "C": "Starnuto, Solletico, Secchezza, Sudorazione, Stanchezza.",
+      "D": "Sanguinamento, Sensibilità, Spasmo, Sincope, Sclerosi."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "La regola delle 5 S (Schwerhörigkeit, Schmerzen, Sekretfluss, Sausen, Schwindel) è lo standard svizzero per indagare i sintomi associati ai disturbi dell'orecchio."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "kprim",
+    "domanda": "In una donna con sospetta infezione delle vie urinarie (HWI), quali situazioni impongono un rinvio diretto al medico?",
+    "opzioni": {
+      "A": "Presenza di febbre superiore a 38,3°C.",
+      "B": "Dolore o dolenzia alla percussione nella zona dei reni (logge renali).",
+      "C": "Sintomi che persistono da più di 5 giorni.",
+      "D": "Paziente di sesso maschile (anche se con sintomi tipici di cistite)."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "Febbre alta, sospetto di pielonefrite (dolore renale), durata prolungata dei sintomi (>5 giorni) e il sesso maschile sono criteri tassativi per il rinvio al medico."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "multipla_scelta",
+    "domanda": "Secondo le dimensioni dell'aderenza definite dall'OMS, quale fattore legato alla terapia peggiora significativamente la compliance del paziente?",
+    "opzioni": {
+      "A": "L'uso di prodotti combinati (più principi attivi in una compressa).",
+      "B": "La presenza di un sistema di supporto sociale familiare.",
+      "C": "Schemi posologici complessi con più di due assunzioni giornaliere.",
+      "D": "Un'informazione dettagliata ed esaustiva sulla terapia."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "L'aderenza peggiora drasticamente con l'aumento della frequenza di assunzione (già sopra le 2 volte al giorno) e con la complessità dello schema terapeutico."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "kprim",
+    "domanda": "Il punteggio di McIsaac è utilizzato per valutare la probabilità di un'infezione da Streptococco di gruppo A (GAS). Quali criteri assegnano 1 punto?",
+    "opzioni": {
+      "A": "Temperatura corporea > 38°C.",
+      "B": "Assenza di tosse.",
+      "C": "Linfonodi cervicali anteriori gonfi e doloranti.",
+      "D": "Età compresa tra i 3 e i 14 anni."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "Il punteggio di McIsaac assegna 1 punto per febbre >38°C, assenza di tosse, adenopatia cervicale dolente e tonsille con placche/essudato; anche l'età infantile aggiunge un punto."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente riceve una dose singola di Fosfomicina 3g per una cistite non complicata. Quale consiglio sulla somministrazione è corretto?",
+    "opzioni": {
+      "A": "Assumere il farmaco al mattino dopo una colazione abbondante.",
+      "B": "Assumere preferibilmente la sera dopo aver svuotato la vescica, evitando di bere più di 2 litri al giorno.",
+      "C": "Bere almeno 4 litri d'acqua subito dopo l'assunzione per 'lavare' le vie urinarie.",
+      "D": "Dividere la dose in tre parti da assumere ogni 8 ore."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "La fosfomicina va assunta idealmente la sera dopo lo svuotamento vescicale; non bisogna superare i 2 litri di liquidi al giorno per non diluire eccessivamente la concentrazione del farmaco nel tessuto vescicale."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "kprim",
+    "domanda": "Riguardo alle tecniche di colloquio e comunicazione in farmacia, valuta la correttezza delle seguenti affermazioni:",
+    "opzioni": {
+      "A": "Le domande aperte (es. 'Come posso aiutarla?') sono ideali per iniziare il colloquio.",
+      "B": "Le domande suggestive sono raccomandate per ottenere risposte rapide e precise.",
+      "C": "Riassumere quanto detto dal paziente aiuta a verificare di aver compreso correttamente i sintomi.",
+      "D": "È preferibile non interrompere il paziente nei primi minuti della sua esposizione."
+    },
+    "risposta_corretta": "VFVV",
+    "motivazione": "Il colloquio deve iniziare con domande aperte e il farmacista deve riassumere per conferma. Le domande suggestive sono da evitare perché influenzano la risposta."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "multipla_scelta",
+    "domanda": "Quale sfida specifica caratterizza l'anamnesi nel paziente anziano in farmacia?",
+    "opzioni": {
+      "A": "La scarsa propensione all'uso di farmaci (oligo-farmacia).",
+      "B": "La tendenza a fornire risposte eccessivamente sintetiche e cliniche.",
+      "C": "La presenza di multimorbilità, potenziali deficit cognitivi e polifarmacia che richiedono tempo e pazienza.",
+      "D": "L'assoluta assenza di cambiamenti nello stile di vita legati all'età."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Negli anziani, la multimorbilità, i deficit comunicativi/cognitivi e l'assunzione di numerosi farmaci rendono l'anamnesi più complessa e soggetta a contraddizioni."
+  },
+  {
+    "ruolo": 5,
+    "tema": "Anamnesi e terapia",
+    "tipo": "kprim",
+    "domanda": "In caso di tosse, quali dei seguenti sono considerati segnali di allarme per un triage medico immediato (Red Flags)?",
+    "opzioni": {
+      "A": "Emottisi (tosse con sangue) o sputo schiumoso.",
+      "B": "Dispnea (mancanza di respiro) o aumento della frequenza respiratoria.",
+      "C": "Presenza di labbra o dita bluastre (cianosi).",
+      "D": "Confusione mentale o stato di disorientamento."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "L'emottisi, la dispnea, la cianosi e lo stato confusionale sono tutti segnali di allarme gravi che impongono un triage immediato al medico o al pronto soccorso."
+  }
+]
