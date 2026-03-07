@@ -1,0 +1,142 @@
+[
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente si presenta in farmacia con un'orticaria acuta generalizzata, riferendo gonfiore alle labbra e una leggera difficoltà respiratoria. Qual è l'intervento di triage corretto secondo le linee guida?",
+    "opzioni": {
+      "A": "Somministrare un'unica dose di cetirizina 10 mg e attendere 30 minuti.",
+      "B": "Identificare la situazione come un'emergenza medica, somministrare il set di emergenza (antistaminico e prednisone) e allertare i soccorsi.",
+      "C": "Consigliare l'applicazione locale di un gel a base di polidocanolo per lenire il prurito.",
+      "D": "Effettuare un'analisi della medicazione per escludere l'uso di ACE-inibitori prima di decidere il trattamento."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "In presenza di segni sistemici come gonfiore delle labbra o dispnea (angioedema), la situazione è classificata come un'emergenza acuta che richiede l'uso del set di emergenza e l'intervento medico immediato."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "kprim",
+    "domanda": "Riguardo alla consegna di dermocorticoidi della 'Lista B+' in farmacia in Svizzera, quali delle seguenti affermazioni sono corrette?",
+    "opzioni": {
+      "1": "Il farmacista può dispensare clobetasone butirrato o idrocortisone butirrato per dermatosi non infette dopo una consulenza personale.",
+      "2": "La durata dell'applicazione per una consegna senza ricetta medica deve essere limitata a un massimo di 3 settimane.",
+      "3": "L'applicazione è permessa anche nelle zone perioculari e genitali, purché per brevi periodi.",
+      "4": "La dispensazione è esclusa durante la gravidanza e l'allattamento."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "I farmacisti possono consegnare dermocorticoidi di classe II (Lista B+) per massimo 3 settimane. L'uso perioculare e perigenitale è escluso per il rischio di effetti collaterali (atrofia cutanea, glaucoma). La consegna a donne incinte o che allattano non è permessa in regime di Lista B+."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "multipla_scelta",
+    "domanda": "Una cliente di 30 anni presenta papule infiammatorie multiple intorno alla bocca. Riferisce di aver usato creme idratanti molto ricche e, recentemente, un campione di crema al cortisone. Qual è la strategia terapeutica più appropriata?",
+    "opzioni": {
+      "A": "Applicare un corticosteroide di classe III per ridurre rapidamente l'infiammazione.",
+      "B": "Utilizzare una crema a base di clotrimazolo per escludere una micosi.",
+      "C": "Avviare una 'terapia zero' (sospensione di tutti i cosmetici e farmaci topici) per almeno 3 settimane.",
+      "D": "Consigliare l'uso di un peeling esfoliante per liberare i follicoli ostruiti."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "I sintomi suggeriscono una dermatite periorale, spesso scatenata da cosmetici occlusivi o steroidi topici. La 'terapia zero' (sospensione di tutti i prodotti topici) è il primo passo essenziale per eliminare i fattori scatenanti."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "kprim",
+    "domanda": "In merito al trattamento delle dermatomicosi cutanee e ungueali, valutate la correttezza delle seguenti istruzioni per il paziente:",
+    "opzioni": {
+      "1": "Per la Tinea pedis, il trattamento topico deve continuare per diversi giorni oltre la guarigione clinica.",
+      "2": "L'uso di corticosteroidi topici è sempre raccomandato in combinazione con l'antimicotico per accelerare la guarigione.",
+      "3": "L'onicomicosi richiede spesso una terapia topica con lacche (es. amorolfina) per un periodo compreso tra 3 e 9 mesi.",
+      "4": "In caso di immunosoppressione, una micosi cutanea può diffondersi sistemicamente e richiede una terapia medica immediata."
+    },
+    "risposta_corretta": "VFVV",
+    "motivazione": "La terapia antimicotica deve proseguire oltre la scomparsa dei sintomi per prevenire recidive. I corticosteroidi dovrebbero essere evitati poiché possono stimolare la crescita fungina. Le onicomicosi hanno tempi di guarigione lunghi (3-9 mesi) legati alla crescita dell'unghia. Gli immunodepressi sono ad alto rischio di complicazioni sistemiche."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "multipla_scelta",
+    "domanda": "Il tacrolimus topico (inibitore della calcineurina) è un'opzione per la dermatite atopica. Quale avvertenza specifica è riportata riguardo al suo profilo di sicurezza?",
+    "opzioni": {
+      "A": "Causa atrofia cutanea irreversibile se usato per più di una settimana.",
+      "B": "Non è raccomandato per il trattamento a lungo termine a causa di un possibile aumento del rischio di tumori (malignità).",
+      "C": "È il farmaco di scelta per le infezioni fungine sovrapposte.",
+      "D": "Può essere utilizzato senza restrizioni su ferite aperte e ulcere."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Sebbene utile per evitare gli effetti collaterali degli steroidi (senza causare atrofia), il tacrolimus non è consigliato per l'uso cronico prolungato a causa delle preoccupazioni sulla potenziale immunosoppressione locale e rischio di malignità."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "kprim",
+    "domanda": "L'uso di Diane 35® (ciproterone acetato ed etinilestradiolo) è indicato nel trattamento dell'alopecia androgenetica femminile. Quali affermazioni sono corrette?",
+    "opzioni": {
+      "1": "Agisce contrastando i segni di androgenizzazione nella donna.",
+      "2": "È associato a un aumento del rischio di tromboembolia venosa e arteriosa.",
+      "3": "Il trattamento deve durare al massimo 21 giorni senza ripetizioni.",
+      "4": "È controindicato in gravidanza, pertanto l'effetto contraccettivo del preparato è un beneficio terapeutico necessario."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "Diane 35® tratta i segni di androgenizzazione ma comporta rischi vascolari notevoli (tromboembolismo). La somministrazione segue cicli di 21 giorni con 7 di pausa per almeno 3 mesi, non si interrompe dopo soli 21 giorni. Prevenire la gravidanza è fondamentale a causa della teratogenicità del ciproterone."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente con psoriasi vulgaris cronica presenta placche spesse e squamose sui gomiti. Quale classe di potenza di steroidi topici è solitamente necessaria per penetrare queste lesioni?",
+    "opzioni": {
+      "A": "Classe I (efficacia debole).",
+      "B": "Classe II (efficacia media).",
+      "C": "Classe III o IV (efficacia forte o molto forte).",
+      "D": "Nessuna, gli steroidi sono controindicati nella psoriasi."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "A causa dello spessore dello strato corneo nelle placche psoriasiche, sono necessari steroidi potenti (Classe III o IV) per ottenere un effetto terapeutico significativo. Gli steroidi deboli non penetrano sufficientemente le lesioni ipercheratosiche."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "kprim",
+    "domanda": "In merito alle infezioni da Papillomavirus Umano (HPV) e alle verruche, quali delle seguenti affermazioni sono corrette?",
+    "opzioni": {
+      "1": "Le verruche genitali (condilomi) richiedono sempre una diagnosi medica.",
+      "2": "Il trattamento di prima scelta per le verruche comuni include l'acido salicilico o la crioterapia.",
+      "3": "La vaccinazione (es. Gardasil 9®) è un'efficace misura profilattica contro le infezioni da HPV.",
+      "4": "Le verruche sono causate da batteri che infettano lo strato basale dell'epidermide."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "I condilomi necessitano di valutazione medica (escludere MST, neoplasia). Acido salicilico e crioterapia sono i pilastri del trattamento topico delle verruche comuni. Il vaccino Gardasil 9® protegge dai ceppi oncogeni HPV e da quelli responsabili dei condilomi. Le verruche sono di origine virale (HPV), non batterica."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "multipla_scelta",
+    "domanda": "Un bambino presenta papule color carne, centralmente ombelicate, con una lucentezza perlacea. Di che patologia si tratta e quale consiglio è appropriato?",
+    "opzioni": {
+      "A": "Impetigine contagiosa; richiede antibiotici topici immediati.",
+      "B": "Mollusco contagioso; l'attesa di una remissione spontanea è un'opzione valida nei casi circoscritti.",
+      "C": "Varicella; il bambino deve essere isolato per 14 giorni.",
+      "D": "Scabbia; è necessario trattare tutti i membri della famiglia."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Le papule ombelicate perlacee sono caratteristiche del mollusco contagioso (poxvirus). Data la natura spesso autolimitante, l'attesa vigile è una strategia possibile nei casi circoscritti, specialmente nei bambini."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Dermatologia/Ginecologia/Infettive",
+    "tipo": "kprim",
+    "domanda": "Quali delle seguenti 'Red Flags' dermatologiche devono indurre il farmacista a un invio immediato al medico o al pronto soccorso?",
+    "opzioni": {
+      "1": "Presenza di lesioni purpuriche che non scompaiono alla pressione (sospetta vasculite).",
+      "2": "Orticaria cronica che dura da più di 6 settimane senza sintomi sistemici.",
+      "3": "Sospetta reazione avversa cutanea grave con coinvolgimento delle mucose (enantema orale).",
+      "4": "Febbre alta associata a un'eruzione cutanea a rapida diffusione."
+    },
+    "risposta_corretta": "VFVV",
+    "motivazione": "La porpora non digitopressibile indica un coinvolgimento vascolare (vasculite) e richiede diagnosi rapida. Il coinvolgimento delle mucose (es. SJS/TEN) e la febbre alta con esantema rapido sono segni di grave emergenza. L'orticaria cronica (>6 settimane) richiede valutazione medica elettiva, ma solitamente non è un'emergenza da pronto soccorso se non ci sono sintomi sistemici."
+  }
+]
