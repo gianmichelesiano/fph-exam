@@ -1,0 +1,44 @@
+[
+  {
+    "ruolo": 3,
+    "tema": "Medicina complementare",
+    "tipo": "multipla_scelta",
+    "domanda": "Una cliente si presenta in farmacia chiedendo un rimedio omeopatico con potenza C200 per un dolore articolare recente, sostenendo che una potenza così alta sia necessariamente più efficace. Quale informazione dovrebbe fornire il farmacista?",
+    "opzioni": {
+      "A": "Le potenze elevate (> D/C 30) sono le più indicate per i disturbi puramente fisici di breve durata.",
+      "B": "Le potenze basse (< D/C 12) hanno un effetto prevalentemente fisico e sono spesso più indicate per disturbi fisici rispetto alle potenze alte.",
+      "C": "L'efficacia di una potenza C200 è determinata esclusivamente dal numero di globuli assunti per dose.",
+      "D": "Le potenze medie (D/C 12) sono le uniche a non avere alcun effetto sul piano mentale."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "I disturbi fisici di breve durata rispondono meglio alle potenze basse (< D/C 12). Le potenze elevate (> D/C 30) agiscono invece sui livelli fisico, mentale e psichico per diverse settimane e sono più indicate per disturbi cronici."
+  },
+  {
+    "ruolo": 3,
+    "tema": "Medicina complementare",
+    "tipo": "kprim",
+    "domanda": "Un paziente presenta un'infiammazione acuta con dolore pungente e lancinante, zona calda e gonfia, che peggiora con la pressione. Valuta le affermazioni relative all'uso di Apis mellifica in questo caso:",
+    "opzioni": {
+      "A": "L'indicazione è corretta poiché Apis è indicato per infiammazioni acute (non purulente) con dolore pungente e lancinante.",
+      "B": "Il quadro clinico è coerente con Apis se il paziente riferisce un miglioramento dei sintomi applicando impacchi freddi.",
+      "C": "L'estrema sensibilità al tatto e alla pressione è un sintomo che depone contro la scelta di Apis mellifica.",
+      "D": "L'assenza di sete nonostante la bocca secca sarebbe un sintomo generale caratteristico per confermare il rimedio."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "Apis mellifica è indicato per infiammazioni acute con dolore pungente/bruciante, calore e gonfiore. Le modalità includono il miglioramento con il freddo e il peggioramento con il calore o la pressione. L'assenza di sete è un sintomo generale tipico di Apis."
+  },
+  {
+    "ruolo": 3,
+    "tema": "Medicina complementare",
+    "tipo": "multipla_scelta",
+    "domanda": "Un cliente richiede globuli omeopatici per un raffreddore acuto insorto improvvisamente. Qual è la raccomandazione corretta riguardo alla posologia?",
+    "opzioni": {
+      "A": "Assumere 7 globuli per dose, da 3 a 6 volte al giorno, aumentando la frequenza se i sintomi sono molto intensi.",
+      "B": "Assumere un solo globulo ogni due giorni, poiché la quantità di sostanza è il fattore determinante.",
+      "C": "Sospendere immediatamente il consumo di caffè, poiché annulla l'effetto di qualsiasi rimedio omeopatico.",
+      "D": "Iniziare con 20 globuli per dose per garantire una trasmissione di informazioni più potente al corpo."
+    },
+    "risposta_corretta": "A",
+    "motivazione": "Per i casi acuti, la posologia standard è di 7 globuli per dose, da 3 a 6 volte al giorno. La frequenza della somministrazione è più importante della quantità di globuli per dose."
+  }
+]
