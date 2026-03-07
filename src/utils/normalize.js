@@ -1,7 +1,7 @@
 export function normalizeTest(raw) {
   const questions = (raw.questions || []).map((q, i) => {
     const tipo = q.tipo || q.type
-    const type = tipo === 'vero_falso' ? 'truefalse' : 'multiple'
+    const type = (tipo === 'vero_falso' || tipo === 'kprim') ? 'truefalse' : 'multiple'
 
     const base = {
       id: q.id || `q${i + 1}`,
@@ -30,10 +30,22 @@ export function normalizeTest(raw) {
 
       return { ...base, options, correct }
     } else {
-      const items = (q.items || []).map(item => ({
-        text: item.testo ?? item.text,
-        correct: item.corretto ?? item.correct,
-      }))
+      let items
+      if (tipo === 'kprim') {
+        // opzioni: {"1":"...","2":"...","3":"...","4":"..."}
+        // risposta_corretta: "VFFV" (V=Vero, F=Falso)
+        const opzioni = q.opzioni || {}
+        const rc = (q.risposta_corretta ?? '').toUpperCase()
+        items = ['1', '2', '3', '4'].map((k, i) => ({
+          text: opzioni[k] ?? '',
+          correct: rc[i] === 'V',
+        })).filter(item => item.text !== '')
+      } else {
+        items = (q.items || []).map(item => ({
+          text: item.testo ?? item.text,
+          correct: item.corretto ?? item.correct,
+        }))
+      }
       return { ...base, items }
     }
   })
