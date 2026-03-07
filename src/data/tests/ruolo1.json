@@ -1,0 +1,113 @@
+{
+  "id": "ruolo1",
+  "title": "Validazione ricette e piani terapeutici",
+  "area": 1,
+  "timer": 15,
+  "questions": [
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente di 75 anni, in terapia cronica con Lisinopril (ACE-inibitore) e Idroclorotiazide (diuretico) per l'ipertensione, presenta una ricetta per Diclofenac 75 mg per un dolore acuto alla schiena. Qual è il rischio principale associato a questa combinazione (Triple Whammy)?",
+      "opzioni": {
+        "A": "Aumento del rischio di sanguinamento gastrointestinale dovuto all'ACE-inibitore.",
+        "B": "Insufficienza renale acuta dovuta alla riduzione della filtrazione glomerulare.",
+        "C": "Ipotensione grave causata dall'interazione tra FANS e diuretico.",
+        "D": "Ipokaliemia severa causata dal Diclofenac."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "La combinazione di un inibitore del sistema RAAS (ACE-inibitore), un diuretico e un FANS (COX-inibitore) è nota come 'Triple Whammy'. Questa associazione mette a forte rischio la funzione renale poiché riduce la pressione di filtrazione glomerulare, potendo causare insufficienza renale acuta, specialmente in pazienti anziani o disidratati.",
+      "id": "q1"
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "kprim",
+      "domanda": "Una paziente di 68 anni assume Escitalopram 20 mg/die. Il medico prescrive Claritromicina 500 mg (2x/die) per una polmonite. Valuta le seguenti affermazioni riguardo al rischio di prolungamento dell'intervallo QT:",
+      "opzioni": {
+        "A": "Il sesso femminile e l'età superiore ai 65 anni sono fattori di rischio indipendenti per le Torsioni di Punta (TdP).",
+        "B": "L'Escitalopram ha un potenziale di prolungamento del QT superiore rispetto al Citalopram.",
+        "C": "Secondo le Informazioni Professionali svizzere, la combinazione tra Escitalopram e antibiotici macrolidi è controindicata.",
+        "D": "Un'eventuale ipokaliemia concomitante aumenterebbe significativamente il rischio aritmico."
+      },
+      "risposta_corretta": "VFFV",
+      "motivazione": "Il sesso femminile e l'età avanzata sono fattori di rischio per TdP. L'Escitalopram ha potenziale QT inferiore al Citalopram. La claritromicina, potente inibitore del CYP3A4, prolunga il QT; la combinazione è ad alto rischio. L'ipokaliemia potenzia il rischio di aritmie.",
+      "id": "q2"
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "multipla_scelta",
+      "domanda": "Una cliente di 40 anni che assume regolarmente estratto di Iperico (Rebalance®) presenta una ricetta per Rivaroxaban (Xarelto®) per la profilassi di una trombosi venosa. Qual è la corretta gestione farmacoterapeutica?",
+      "opzioni": {
+        "A": "I due farmaci possono essere assunti insieme senza particolari precauzioni.",
+        "B": "L'Iperico è un inibitore del CYP3A4 e aumenterebbe eccessivamente i livelli di Rivaroxaban.",
+        "C": "L'Iperico è un induttore del CYP3A4 e della P-gp, riducendo l'efficacia del Rivaroxaban e aumentando il rischio di trombosi.",
+        "D": "Il Rivaroxaban riduce l'efficacia antidepressiva dell'Iperico tramite induzione enzimatica."
+      },
+      "risposta_corretta": "C",
+      "motivazione": "L'Iperico (Johanniskraut) è un potente induttore enzimatico del CYP3A4 e del trasportatore P-gp. Poiché il Rivaroxaban è un substrato di entrambi, l'Iperico ne riduce significativamente le concentrazioni plasmatiche, compromettendo l'efficacia della profilassi anticoagulante.",
+      "id": "q3"
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "kprim",
+      "domanda": "Un paziente con insufficienza renale cronica (GFR stimata 25 ml/min) richiede consiglio per un dolore acuto. Valuta la validità delle seguenti opzioni terapeutiche:",
+      "opzioni": {
+        "A": "L'uso di Diclofenac è controindicato poiché la GFR è inferiore a 30 ml/min.",
+        "B": "Il Metamizolo rappresenta un'alternativa sicura dal punto di vista renale.",
+        "C": "Il Paracetamolo può essere utilizzato in sicurezza anche con clearance renale fino a 10 ml/min.",
+        "D": "In caso di disidratazione, l'uso di FANS è meno pericoloso se combinato con un ACE-inibitore."
+      },
+      "risposta_corretta": "VVVF",
+      "motivazione": "I FANS sono controindicati con GFR < 30 ml/min. Metamizolo e Paracetamolo sono alternative preferibili nei pazienti con insufficienza renale. La disidratazione aumenta drasticamente il rischio di danno renale da FANS, specialmente con ACE-inibitori o diuretici.",
+      "id": "q4"
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "multipla_scelta",
+      "domanda": "Una giovane donna in terapia con Carbamazepina per l'epilessia richiede la contraccezione di emergenza orale a base di Levonorgestrel. Come deve agire il farmacista?",
+      "opzioni": {
+        "A": "Consegnare la dose standard di Levonorgestrel (1.5 mg).",
+        "B": "Consigliare l'uso della spirale al rame (IUD) come prima scelta o raddoppiare la dose di Levonorgestrel.",
+        "C": "Sostituire il Levonorgestrel con l'Ulipristal acetato, che non subisce l'induzione della Carbamazepina.",
+        "D": "Rifiutare la consegna poiché la Carbamazepina rende inefficace qualsiasi contraccettivo ormonale d'emergenza."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Gli induttori enzimatici come la Carbamazepina accelerano il metabolismo dei contraccettivi ormonali. Per la contraccezione d'emergenza in queste pazienti, la spirale al rame è il metodo più efficace; in alternativa è raccomandato il raddoppio della dose di Levonorgestrel (3 mg).",
+      "id": "q5"
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "kprim",
+      "domanda": "Un paziente che assume Escitalopram ad alto dosaggio riceve una prescrizione di Tramadolo per dolore post-operatorio. Valuta i rischi di questa combinazione:",
+      "opzioni": {
+        "A": "Il tramadolo ha proprietà serotoninergiche e può contribuire all'insorgenza di una sindrome serotoninergica.",
+        "B": "Mioclonie, iperreflessia e agitazione sono sintomi tipici di una tossicità serotoninergica.",
+        "C": "L'associazione SSRI + oppioidi è sempre assolutamente controindicata in Svizzera.",
+        "D": "La midriasi (dilatazione delle pupille) e la tachicardia sono segni comuni di questa interazione."
+      },
+      "risposta_corretta": "VVFV",
+      "motivazione": "Il tramadolo aumenta i livelli di serotonina. I sintomi neuromuscolari (mioclonie, iperreflessia) e autonomici (midriasi, tachicardia) sono segni di sindrome serotoninergica. L'associazione richiede cautela ma non è una controindicazione assoluta.",
+      "id": "q6"
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette e piani terapeutici",
+      "tipo": "multipla_scelta",
+      "domanda": "Durante la validazione di un piano terapeutico per un paziente anziano (> 75 anni) in terapia con Atorvastatina 40 mg, si nota l'aggiunta di Claritromicina per 7 giorni. Qual è l'intervento più appropriato?",
+      "opzioni": {
+        "A": "Abbandonare l'Atorvastatina in modo permanente.",
+        "B": "Sospendere temporaneamente l'Atorvastatina durante il trattamento con l'antibiotico per evitare il rischio di rabdomiolisi.",
+        "C": "Suggerire al paziente di assumere Atorvastatina e Claritromicina a 12 ore di distanza.",
+        "D": "Nessun intervento è necessario poiché le statine non interagiscono con i macrolidi."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "La claritromicina è un potente inibitore del CYP3A4 e della P-gp, che può aumentare significativamente l'AUC dell'Atorvastatina (fino a 4.5 volte), aumentando il rischio di miopatia e rabdomiolisi. La sospensione temporanea della statina è la strategia consigliata.",
+      "id": "q7"
+    }
+  ]
+}

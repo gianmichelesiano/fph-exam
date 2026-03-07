@@ -1,0 +1,158 @@
+{
+  "id": "ruolo4b",
+  "title": "Farmacia Clinica – Set B",
+  "area": 4,
+  "timer": 20,
+  "questions": [
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "multipla_scelta",
+      "domanda": "Una paziente di 70 anni presenta un dolore lombare acuto con disturbi della sensibilità nella zona del perineo e dell'interno coscia (anestesia a sella). Qual è la corretta gestione?",
+      "opzioni": {
+        "A": "Consigliare ibuprofene 400 mg e riposo per 3 giorni.",
+        "B": "Rinvio immediato al pronto soccorso poiché è una possibile sindrome della cauda equina.",
+        "C": "Applicare un cerotto antidolorifico e rivalutare dopo 48 ore.",
+        "D": "Consigliare fisioterapia domiciliare per la lombalgia comune."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "L'anestesia a sella è un sintomo neurologico grave che indica una possibile sindrome della cauda equina e rappresenta un'emergenza medica da ospedalizzare immediatamente.",
+      "id": "q1"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "kprim",
+      "domanda": "Riguardo alla dispensazione del Metamizolo (Lista B+) in farmacia per il dolore acuto, valuta le seguenti affermazioni:",
+      "opzioni": {
+        "A": "L'agranulocitosi è un effetto collaterale dose-dipendente che si manifesta solitamente dopo mesi di terapia.",
+        "B": "Il Metamizolo è considerato il farmaco di prima scelta per il mal di schiena aspecifico.",
+        "C": "Il paziente deve essere istruito a sospendere il farmaco e consultare un medico in caso di mal di gola o lesioni alle mucose orali.",
+        "D": "In Lista B+, si può dispensare Metamizolo per una dose max di 3000 mg/die e per massimo 1 settimana."
+      },
+      "risposta_corretta": "FFVV",
+      "motivazione": "L'agranulocitosi è dose-indipendente e si manifesta spesso nelle prime settimane. I FANS (non il metamizolo) sono prima scelta per il mal di schiena aspecifico. I sintomi orali sono segni precoci di agranulocitosi. I limiti Lista B+ sono 3000 mg/die e 1 settimana.",
+      "id": "q2"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "multipla_scelta",
+      "domanda": "Una paziente anziana con insufficienza cardiaca e renale lamenta forte mal di schiena. Aveva assunto Dafalgan 500 mg ogni 6 ore senza successo. Qual è la raccomandazione corretta?",
+      "opzioni": {
+        "A": "Aumentare la dose di paracetamolo a 1 g ogni 4 ore per raggiungere l'efficacia.",
+        "B": "Continuare il paracetamolo poiché è l'unico farmaco privo di rischi per il fegato.",
+        "C": "Sospendere il paracetamolo: per la lombalgia la sua efficacia non è superiore al placebo.",
+        "D": "Passare a un FANS sistemico (es. Ibuprofene) nonostante l'insufficienza cardiaca."
+      },
+      "risposta_corretta": "C",
+      "motivazione": "Il paracetamolo non ha dimostrato benefici superiori al placebo per la lombalgia acuta. I FANS sono controindicati in caso di insufficienza cardiaca o renale grave.",
+      "id": "q3"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "kprim",
+      "domanda": "Riguardo alle proprietà farmacologiche dell'ibuprofene, valuta le seguenti affermazioni:",
+      "opzioni": {
+        "A": "L'effetto analgesico e antipiretico massimo dell'ibuprofene viene raggiunto con una dose di 400 mg (ceiling effect).",
+        "B": "A differenza dell'effetto analgesico, l'effetto antiflogistico aumenta proporzionalmente con la dose.",
+        "C": "L'uso di ibuprofene deve essere evitato in caso di infezione da varicella.",
+        "D": "Per la dispensazione senza ricetta (Lista B+), la dose giornaliera massima autorizzata è di 2400 mg."
+      },
+      "risposta_corretta": "VVVF",
+      "motivazione": "L'effetto analgesico ha un tetto a 400 mg, mentre quello antinfiammatorio cresce con dosi superiori. La varicella è una controindicazione per il rischio di complicazioni tissutali. Il limite giornaliero per la Lista B+ è 1800 mg (non 2400 mg).",
+      "id": "q4"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "multipla_scelta",
+      "domanda": "Quale FANS è associato al rischio cardiovascolare più elevato, paragonabile a quello dei Coxib, e dovrebbe essere evitato in pazienti con anamnesi di ischemia cardiaca?",
+      "opzioni": {
+        "A": "Naprossene",
+        "B": "Ibuprofene (a dosaggi < 1200 mg/die)",
+        "C": "Diclofenac",
+        "D": "Aspirina (ASA) a basse dosi"
+      },
+      "risposta_corretta": "C",
+      "motivazione": "Il diclofenac ha una maggiore selettività per la COX-2 rispetto ad altri FANS tradizionali, con tossicità cardiovascolare superiore. Naprossene e ibuprofene a basse dosi sono considerati più sicuri dal punto di vista CV.",
+      "id": "q5"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "kprim",
+      "domanda": "Sulle interazioni tra analgesici della Lista B+ e altre terapie, valuta le seguenti affermazioni:",
+      "opzioni": {
+        "A": "Se si assume ibuprofene insieme ad aspirina cardio-protettiva, l'ibuprofene deve essere assunto almeno 2 ore DOPO l'ASA.",
+        "B": "L'uso combinato di FANS e antidepressivi SSRI aumenta significativamente il rischio di emorragie gastrointestinali.",
+        "C": "Il metamizolo può ridurre l'effetto antiaggregante dell'aspirina se somministrato contemporaneamente.",
+        "D": "La combinazione di paracetamolo e FANS è possibile per ottenere un effetto sinergico."
+      },
+      "risposta_corretta": "VVVV",
+      "motivazione": "L'ibuprofene blocca il sito d'azione dell'ASA; l'ASA va assunta prima. SSRI e FANS aumentano entrambi il rischio di sanguinamento. Il metamizolo interferisce con l'ASA. La combinazione paracetamolo/FANS è una pratica clinica consolidata.",
+      "id": "q6"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente con morbo di Parkinson in terapia con Levodopa/Benserazide riferisce che l'effetto è incostante dopo i pasti. Quale consiglio è corretto?",
+      "opzioni": {
+        "A": "Assumere il farmaco sempre insieme a un pasto ricco di carne o latticini.",
+        "B": "Assumere il farmaco almeno 30-60 minuti prima dei pasti o 2 ore dopo, evitando pasti iperproteici.",
+        "C": "Sciogliere la compressa in un succo d'arancia per aumentare l'acidità gastrica.",
+        "D": "Assumere il farmaco esclusivamente prima di andare a dormire."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Le proteine alimentari competono con la levodopa per lo stesso trasportatore di aminoacidi a livello intestinale e della barriera emato-encefalica, riducendone l'assorbimento e l'efficacia.",
+      "id": "q7"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "kprim",
+      "domanda": "Riguardo al consiglio in farmacia per un paziente che inizia una terapia con un SSRI (es. Sertralina), valuta le seguenti affermazioni:",
+      "opzioni": {
+        "A": "L'effetto terapeutico completo sull'umore si manifesta solitamente entro i primi 3-5 giorni di trattamento.",
+        "B": "All'inizio della terapia possono manifestarsi disturbi gastrointestinali o un aumento temporaneo dell'ansia.",
+        "C": "È fondamentale non interrompere bruscamente la terapia per evitare sintomi da sospensione.",
+        "D": "L'uso concomitante di Erba di San Giovanni è consigliato per potenziare l'effetto senza rischi."
+      },
+      "risposta_corretta": "FVVF",
+      "motivazione": "L'effetto antidepressivo richiede 2-4 settimane. Gli effetti collaterali iniziali (ansia, nausea) sono comuni. La sospensione deve essere graduale. L'iperico aumenta il rischio di sindrome serotoninergica.",
+      "id": "q8"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "multipla_scelta",
+      "domanda": "Nella dispensazione di Metilfenidato per un bambino con ADHD, quale parametro deve essere monitorato regolarmente?",
+      "opzioni": {
+        "A": "La frequenza delle minzioni notturne.",
+        "B": "La crescita (altezza e peso) e la pressione arteriosa.",
+        "C": "I livelli di vitamina D nel sangue.",
+        "D": "La capacità di distinguere i colori."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Il metilfenidato può causare una leggera riduzione dell'appetito (influendo sulla crescita) e un aumento della pressione arteriosa e della frequenza cardiaca, parametri che richiedono monitoraggio costante.",
+      "id": "q9"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Dolore e Neurologia",
+      "tipo": "kprim",
+      "domanda": "Riguardo al protocollo LINDAFF per la valutazione del dolore in farmacia, valuta se le seguenti definizioni sono corrette:",
+      "opzioni": {
+        "A": "La 'L' si riferisce alla Localizzazione del dolore (dove si trova e se irradia).",
+        "B": "La 'I' indica l'Intensità del dolore valutata su una scala da 1 a 10.",
+        "C": "La 'A' si riferisce esclusivamente alle Allergie ai farmaci del paziente.",
+        "D": "Un'intensità del dolore > 5 su una scala da 1 a 10 è considerata una Red Flag che richiede consulenza medica."
+      },
+      "risposta_corretta": "VVFV",
+      "motivazione": "L=Localizzazione, I=Intensità. La 'A' nel protocollo LINDAFF si riferisce all'Anamnesi (altre malattie note). Un dolore superiore a 5 richiede una diagnosi medica.",
+      "id": "q10"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "ruolo7",
+  "title": "Risultati di laboratorio",
+  "area": 7,
+  "timer": 15,
+  "questions": [
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "multipla_scelta",
+      "domanda": "Secondo le linee guida per lo screening del diabete mellito, quale intervallo di valori dell'HbA1c indica una condizione di prediabete?",
+      "opzioni": {
+        "A": "< 5.7%",
+        "B": "5.7–6.4%",
+        "C": "6.5–8.9%",
+        "D": "> 9.0%"
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Un valore di HbA1c compreso tra 5.7% e 6.4% definisce il prediabete, mentre valori >= 6.5% sono indicativi di diabete.",
+      "id": "q1"
+    },
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "kprim",
+      "domanda": "Durante la gravidanza, diversi parametri di laboratorio subiscono variazioni fisiologiche. Quali delle seguenti affermazioni sono corrette?",
+      "opzioni": {
+        "A": "I livelli di TSH tendono a diminuire, specialmente nel primo trimestre.",
+        "B": "La concentrazione di ferritina aumenta fisiologicamente per supportare il feto.",
+        "C": "I valori di fibrinogeno e D-dimero risultano aumentati (stato di ipercoagulabilità).",
+        "D": "Il numero di leucociti tende a diminuire progressivamente."
+      },
+      "risposta_corretta": "VFVF",
+      "motivazione": "In gravidanza il TSH diminuisce nel 1° trimestre. La ferritina diminuisce a causa dell'aumento del volume plasmatico. Fibrinogeno e D-dimero aumentano. I leucociti tendono ad aumentare, non a diminuire.",
+      "id": "q2"
+    },
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente presenta: Emoglobina 100 g/L (rif. 135-175), MCV 70 fl (rif. 80-100) e MCH 20 pg (rif. 26-34). Qual è l'interpretazione più probabile?",
+      "opzioni": {
+        "A": "Anemia macrocitica da carenza di Vitamina B12.",
+        "B": "Anemia normocitica dovuta a insufficienza renale.",
+        "C": "Anemia microcitica ipocromica, probabilmente da carenza di ferro.",
+        "D": "Risultato normale per un uomo adulto."
+      },
+      "risposta_corretta": "C",
+      "motivazione": "Valori bassi di MCV (volume cellulare) e MCH (contenuto di emoglobina) indicano un'anemia microcitica ipocromica, tipica della carenza di ferro.",
+      "id": "q3"
+    },
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "kprim",
+      "domanda": "In farmacia è fondamentale riconoscere i valori vitale critici (Red Flags). Quali delle seguenti soglie sono corrette per il rinvio immediato al medico?",
+      "opzioni": {
+        "A": "Potassio (K+) > 6.2 mmol/L (rischio di aritmie e arresto cardiaco).",
+        "B": "INR > 4.5 (elevato rischio di emorragia patologica).",
+        "C": "Proteina C-Reattiva (CRP) > 100 mg/L (sospetto di sepsi).",
+        "D": "Emoglobina (Hb) < 100 g/L (sempre considerato valore critico vitale)."
+      },
+      "risposta_corretta": "VVVF",
+      "motivazione": "Potassio > 6.2, INR > 4.5 e CRP > 100 sono considerati valori critici. L'emoglobina è vitale critica quando < 60 g/L, non < 100 g/L.",
+      "id": "q4"
+    },
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "multipla_scelta",
+      "domanda": "In base alle raccomandazioni AGLA e EviPrev, quando dovrebbe iniziare lo screening dei lipidi in un uomo senza fattori di rischio noti?",
+      "opzioni": {
+        "A": "A partire dai 18 anni, ogni 3 anni.",
+        "B": "A partire dai 40 anni.",
+        "C": "Solo dopo i 65 anni.",
+        "D": "Solo se il BMI è superiore a 30 kg/m²."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "L'AGLA raccomanda il calcolo del rischio cardiovascolare e lo screening lipidico per tutti gli uomini a partire dai 40 anni.",
+      "id": "q5"
+    },
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "kprim",
+      "domanda": "Riguardo all'uso e all'interpretazione della Proteina C-Reattiva (CRP) in farmacia, quali affermazioni sono corrette?",
+      "opzioni": {
+        "A": "La CRP aumenta con un ritardo di circa 12-24 ore rispetto all'inizio dell'infezione.",
+        "B": "La CRP è un parametro specifico esclusivamente per le infezioni batteriche.",
+        "C": "Un valore di CRP < 5 mg/L è considerato nel range di normalità.",
+        "D": "Secondo Qualab, la deviazione massima ammissibile per la CRP è del +/- 21%."
+      },
+      "risposta_corretta": "VFVV",
+      "motivazione": "La CRP ha un ritardo di 12-24h. Non è specifica per batteri, aumenta anche in infiammazioni generali o danni tissutali. < 5 mg/L è normale. La tolleranza Qualab è del 21%.",
+      "id": "q6"
+    },
+    {
+      "ruolo": 7,
+      "tema": "Risultati di laboratorio",
+      "tipo": "multipla_scelta",
+      "domanda": "Una cliente lamenta stanchezza persistente. Gli esami mostrano: Ferritina 32 µg/l (rif. 30-300) e TSH 10.45 mU/L (rif. 0.55-4.78). Qual è l'azione più appropriata?",
+      "opzioni": {
+        "A": "Consigliare un integratore di ferro ad alto dosaggio.",
+        "B": "Sospettare un ipotiroidismo e indirizzare al medico per ulteriori accertamenti.",
+        "C": "Sospettare un ipertiroidismo e consigliare riposo.",
+        "D": "Tranquillizzare la cliente poiché i valori sono influenzati dalla stanchezza."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Un valore di TSH significativamente elevato (> 10) indica un probabile ipotiroidismo, che spiega i sintomi di stanchezza, nonostante la ferritina sia ancora nel range normale.",
+      "id": "q7"
+    }
+  ]
+}

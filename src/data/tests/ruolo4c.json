@@ -1,0 +1,158 @@
+{
+  "id": "ruolo4c",
+  "title": "Farmacia Clinica – Set C",
+  "area": 4,
+  "timer": 20,
+  "questions": [
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente con insufficienza cardiaca HFrEF deve passare dalla terapia con Enalapril a Sacubitril/Valsartan (Entresto®). Quale istruzione deve fornire il farmacista per garantire la sicurezza del paziente secondo le linee guida?",
+      "opzioni": {
+        "A": "Assumere la prima dose di Sacubitril/Valsartan esattamente 12 ore dopo l'ultima dose di Enalapril.",
+        "B": "Rispettare un periodo di lavaggio (wash-out) di almeno 36 ore tra l'ultima dose di ACE-inibitore e la prima di ARNI.",
+        "C": "Iniziare immediatamente Sacubitril/Valsartan, ma solo a metà del dosaggio target.",
+        "D": "Sospendere l'ACE-inibitore per 7 giorni prima di iniziare la nuova terapia per evitare l'insufficienza renale."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Per evitare il rischio di angioedema e ipotensione grave, quando si passa da un ACE-inibitore a un ARNI (Sacubitril/Valsartan), l'ultimo ACE-inibitore deve essere stato assunto da più di 36 ore.",
+      "id": "q1"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "kprim",
+      "domanda": "In merito alla gestione degli anticoagulanti orali diretti (DOAC) in farmacia, quali delle seguenti affermazioni sono corrette?",
+      "opzioni": {
+        "1": "Rivaroxaban (Xarelto®) ai dosaggi di 15 mg e 20 mg deve essere assunto obbligatoriamente con un pasto per garantirne la biodisponibilità.",
+        "2": "La Rifampicina riduce significativamente i livelli plasmatici di Dabigatran (circa -66%) ed Edoxaban (-35%).",
+        "3": "Dabigatran (Pradaxa®) è l'unico DOAC la cui eliminazione è prevalentemente non renale (circa 20%).",
+        "4": "In caso di passaggio da un antagonista della vitamina K (VKA) a un DOAC, il nuovo farmaco va iniziato quando l'INR è ≤ 2.0-3.0 a seconda della molecola."
+      },
+      "risposta_corretta": "VVFV",
+      "motivazione": "Rivaroxaban 15/20mg richiede cibo per l'assorbimento. La Rifampicina è un induttore che riduce i livelli dei DOAC. Dabigatran ha l'80% di eliminazione renale (non il 20%). Il passaggio da VKA a DOAC si basa su soglie di INR specifiche.",
+      "id": "q2"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente di 65 anni in prevenzione secondaria (rischio molto alto) presenta un valore di colesterolo LDL di 2,2 mmol/L nonostante la terapia con Atorvastatina 40 mg. Qual è l'obiettivo (target) terapeutico secondo le attuali linee guida AGLA/ESC?",
+      "opzioni": {
+        "A": "< 2,6 mmol/L",
+        "B": "< 1,8 mmol/L",
+        "C": "< 1,4 mmol/L e una riduzione di almeno il 50% rispetto al valore basale",
+        "D": "< 1,1 mmol/L"
+      },
+      "risposta_corretta": "C",
+      "motivazione": "Per i pazienti a rischio molto alto (es. prevenzione secondaria con ASCVD manifesta), il target LDL è < 1,4 mmol/L combinato con una riduzione di almeno il 50% rispetto al valore basale (linee guida AGLA/ESC 2019/2021).",
+      "id": "q3"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "kprim",
+      "domanda": "Una cliente incinta al secondo trimestre chiede consiglio per la sua ipertensione. Quali di queste affermazioni sulla terapia antipertensiva in gravidanza sono corrette?",
+      "opzioni": {
+        "1": "Gli ACE-inibitori e i sartani sono assolutamente controindicati a causa del potenziale teratogeno e della tossicità fetale.",
+        "2": "Il Labetalolo è considerato un'opzione di prima scelta per il trattamento dell'ipertensione in gravidanza.",
+        "3": "La Metildopa non deve essere usata in gravidanza a causa del rischio di depressione neonatale.",
+        "4": "In caso di necessità, il Verapamil è un calcio-antagonista che può essere utilizzato."
+      },
+      "risposta_corretta": "VVFV",
+      "motivazione": "ACE-inibitori e sartani sono vietati in gravidanza per tossicità fetale. Labetalolo e Metildopa sono farmaci di prima scelta. Il Verapamil è un calcio-antagonista utilizzabile in gravidanza.",
+      "id": "q4"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente con insufficienza cardiaca (HFrEF) inizia la terapia con Empagliflozin (Jardiance®) 10 mg. Quale consiglio di consulenza clinica è prioritario per questo farmaco?",
+      "opzioni": {
+        "A": "Assumere il farmaco solo la sera per evitare la sonnolenza diurna.",
+        "B": "Monitorare attentamente l'igiene urogenitale per prevenire infezioni micotiche dovute alla glicosuria.",
+        "C": "Sospendere immediatamente i diuretici dell'ansa per evitare la disidratazione.",
+        "D": "Effettuare un carico di carboidrati prima dell'assunzione per evitare l'ipoglicemia."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Gli SGLT2-inibitori causano glicosuria (eliminazione di zucchero nelle urine), il che aumenta significativamente il rischio di infezioni genitali e urinarie micotiche se non si mantiene un'ottima igiene urogenitale.",
+      "id": "q5"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "kprim",
+      "domanda": "Riguardo alla doppia antiaggregazione piastrinica (DAPT) dopo una sindrome coronarica acuta (ACS) e posa di stent, quali affermazioni sono corrette?",
+      "opzioni": {
+        "1": "Ticagrelor (Brilique®) va somministrato alla dose di mantenimento di 90 mg due volte al giorno.",
+        "2": "La durata standard della DAPT in Svizzera dopo un ACS è solitamente di 12 mesi.",
+        "3": "Prasugrel (Efient®) è indicato anche nei pazienti con anamnesi di ictus o TIA (attacco ischemico transitorio).",
+        "4": "In pazienti con età ≥ 75 anni, se l'uso di Prasugrel è necessario, si raccomanda una dose di mantenimento di 5 mg."
+      },
+      "risposta_corretta": "VVFV",
+      "motivazione": "Ticagrelor è BID 90mg. La durata standard DAPT è 12 mesi post-ACS. Prasugrel è controindicato in caso di pregresso ictus/TIA. Negli anziani over 75, la dose di Prasugrel va ridotta a 5 mg.",
+      "id": "q6"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "multipla_scelta",
+      "domanda": "La combinazione nota come 'Triple Whammy' può portare a insufficienza renale acuta. Quali classi di farmaci ne fanno parte?",
+      "opzioni": {
+        "A": "Statina + Fibrato + Omega-3",
+        "B": "ACE-inibitore/Sartano + Diuretico + FANS (es. Diclofenac)",
+        "C": "Betabloccante + Calcio-antagonista + Aspirina",
+        "D": "SGLT2-inibitore + Metformina + DPP4-inibitore"
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Il 'Triple Whammy' è l'uso concomitante di ACE-inibitori o sartani (che dilatano l'arteriola efferente), diuretici (che riducono il volume circolante) e FANS (che costringono l'arteriola afferente), compromettendo gravemente la filtrazione renale.",
+      "id": "q7"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "kprim",
+      "domanda": "L'Amiodarone è un antiaritmico potente ma con molti effetti collaterali a lungo termine. Quali delle seguenti affermazioni sono vere?",
+      "opzioni": {
+        "1": "Può causare sia ipotiroidismo che ipertiroidismo a causa del suo alto contenuto di iodio.",
+        "2": "I depositi corneali si verificano in oltre il 90% dei pazienti trattati a lungo termine, ma raramente influenzano la vista.",
+        "3": "L'emivita del farmaco è molto breve (poche ore), richiedendo tre somministrazioni giornaliere.",
+        "4": "Interagisce con la Digossina, aumentandone i livelli plasmatici di circa il 70%."
+      },
+      "risposta_corretta": "VVFV",
+      "motivazione": "L'Amiodarone provoca disfunzioni tiroidee (ipo e iper) per l'alto contenuto di iodio. I depositi corneali sono frequenti ma generalmente asintomatici. L'emivita è lunghissima (20-100 giorni), non breve. Aumenta notevolmente i livelli di Digossina (necessario ridurre la dose).",
+      "id": "q8"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente soffre di arteriopatia periferica (PAVK) in stadio II (claudicatio intermittens). Quale misura si è dimostrata la più efficace per raddoppiare la distanza di cammino indolore?",
+      "opzioni": {
+        "A": "Assunzione di acido acetilsalicilico 100 mg una volta al giorno.",
+        "B": "Allenamento strutturato e regolare al cammino (Gehtraining) per almeno 30 minuti, 3 volte a settimana.",
+        "C": "Utilizzo di calze a compressione graduata classe 3.",
+        "D": "Trattamento con Pentoxifillina ad alto dosaggio."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "L'allenamento al cammino è la terapia più efficace nello stadio II della PAVK, favorendo lo sviluppo di circoli collaterali e migliorando significativamente (raddoppiando) la distanza percorsa senza dolore.",
+      "id": "q9"
+    },
+    {
+      "ruolo": 4,
+      "tema": "Farmacia clinica - Cardiovascolare e Metabolismo",
+      "tipo": "kprim",
+      "domanda": "In merito alla profilassi dell'endocardite infettiva secondo le attuali raccomandazioni svizzere, quali affermazioni sono corrette?",
+      "opzioni": {
+        "1": "È indicata per tutti i pazienti con difetti cardiaci, indipendentemente dalla gravità.",
+        "2": "La profilassi standard consiste in 2 g di Amoxicillina assunti oralmente 1 ora prima della procedura odontoiatrica.",
+        "3": "In caso di allergia alle penicilline (tipo immediato), la Clindamicina (600 mg) è un'alternativa valida.",
+        "4": "La pulizia professionale dei denti (rimozione del tartaro) in un paziente con valvola cardiaca artificiale richiede la profilassi."
+      },
+      "risposta_corretta": "FVVV",
+      "motivazione": "La profilassi è limitata ai pazienti ad alto rischio (es. valvole artificiali, non tutti i difetti cardiaci). Il regime standard è 2g di Amoxicillina per os 1 ora prima. La Clindamicina 600mg è l'alternativa per allergici alle penicilline. Procedure che lesionano la mucosa gengivale in soggetti ad alto rischio richiedono profilassi.",
+      "id": "q10"
+    }
+  ]
+}
