@@ -1,0 +1,142 @@
+[
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "multipla_scelta",
+    "domanda": "Quale delle seguenti affermazioni descrive correttamente una differenza anatomica e clinica tra il Morbus Crohn (MC) e la Colite Ulcerosa (CU)?",
+    "opzioni": {
+      "A": "La CU può colpire qualsiasi segmento del tratto gastrointestinale, dalla bocca all'ano.",
+      "B": "Il MC presenta un'infiammazione continua e superficiale limitata alla mucosa del colon.",
+      "C": "Il MC è caratterizzato da un'infiammazione transmurale (che penetra l'intera parete) e spesso segmentale, mentre la CU colpisce la mucosa in modo continuo.",
+      "D": "Le fistole e gli ascessi sono complicazioni patognomoniche della CU, raramente presenti nel MC."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Il Morbus Crohn è caratterizzato da un'infiammazione segmentale e transmurale che può colpire tutto il tratto G/I (dalla bocca all'ano), mentre la Colite Ulcerosa colpisce solo il colon in modo continuo e superficiale (mucosa). Le fistole e gli ascessi sono tipici del MC."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "kprim",
+    "domanda": "Riguardo ai potenziali rischi e agli effetti collaterali associati alla terapia a lungo termine con inibitori di pompa protonica (PPI), valutate la veridicità delle seguenti affermazioni:",
+    "opzioni": {
+      "1": "L'uso prolungato di PPI può inibire l'assorbimento della vitamina B12, poiché l'acidità gastrica è necessaria per la sua liberazione dalle proteine alimentari.",
+      "2": "L'ipomagnesiemia indotta da PPI è un evento puramente biochimico che non comporta mai manifestazioni cliniche gravi come aritmie o tetania.",
+      "3": "Esiste un'evidenza clinica univoca e definitiva che l'uso di PPI causi osteoporosi e fratture in tutti i pazienti, indipendentemente dall'età.",
+      "4": "L'acloridria risultante dalla terapia con PPI può aumentare il rischio di infezioni gastrointestinali, in particolare da Clostridium difficile."
+    },
+    "risposta_corretta": "VFFV",
+    "motivazione": "La soppressione dell'acido inibisce l'assorbimento della vitamina B12 e aumenta il rischio di infezioni da C. difficile. L'ipomagnesiemia può avere manifestazioni cliniche gravi (aritmie, tetania). L'evidenza sul rischio di fratture è presente ma eterogenea, non definitiva per tutti i pazienti."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente di 70 anni richiede un consiglio per l'assunzione di ibuprofene ad alte dosi per il trattamento di un dolore articolare. In quale dei seguenti casi è indicata la profilassi con un PPI secondo le linee guida?",
+    "opzioni": {
+      "A": "Solo se il paziente assume anche integratori di calcio e vitamina D3.",
+      "B": "In presenza di fattori di rischio come l'età superiore ai 65 anni o l'uso concomitante di corticosteroidi orali.",
+      "C": "Solo se il paziente presenta sintomi di reflusso gastroesofageo documentati da oltre sei mesi.",
+      "D": "La co-prescrizione di un PPI non è mai necessaria se la terapia con FANS dura meno di 30 giorni."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "I fattori di rischio per complicazioni gastrointestinali da FANS includono l'età > 65 anni, dosaggi elevati e trattamenti concomitanti con corticosteroidi, anticoagulanti o ASA. In questi casi la profilassi con PPI è raccomandata dalle linee guida europee (ESGE)."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "kprim",
+    "domanda": "La gestione farmacologica della stitichezza richiede accorgimenti specifici in base alla tipologia di paziente. Valutate le seguenti indicazioni terapeutiche:",
+    "opzioni": {
+      "1": "Durante la gravidanza, i lassativi stimolanti sono considerati il trattamento di prima scelta per la loro rapidità d'azione.",
+      "2": "Nei pazienti anziani con ridotta peristalsi, i lassativi formatori di massa (quellmittel) sono preferibili a quelli osmotici per evitare la disidratazione.",
+      "3": "Per la stitichezza indotta da oppioidi, i lassativi osmotici come il macrogol sono generalmente raccomandati come prima scelta.",
+      "4": "I lassativi che aumentano il volume fecale (quellmittel) devono essere evitati se si sospetta una stenosi o un'ostruzione intestinale."
+    },
+    "risposta_corretta": "FFVV",
+    "motivazione": "In gravidanza e negli anziani sono preferiti i lassativi osmotici (macrogol, lattulosio), non gli stimolanti. Per la stitichezza da oppioidi, i lassativi osmotici sono la prima scelta (i formatori di massa sono sconsigliati). I quellmittel sono controindicati in caso di stenosi o ostruzione intestinale."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "multipla_scelta",
+    "domanda": "A causa di un'interazione farmacocinetica mediata dall'inibizione dell'enzima CYP2C19, quale dei seguenti PPI dovrebbe essere evitato in combinazione con il clopidogrel?",
+    "opzioni": {
+      "A": "Pantoprazolo",
+      "B": "Rabeprazolo",
+      "C": "Omeprazolo",
+      "D": "Dexlansoprazolo"
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Omeprazolo ed esomeprazolo sono forti inibitori del CYP2C19, l'enzima necessario per attivare il clopidogrel (profarmaco). La loro combinazione riduce l'effetto antiaggregante del clopidogrel; si preferisce pantoprazolo o rabeprazolo che hanno minore interazione con CYP2C19."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "kprim",
+    "domanda": "Durante il triage in farmacia per sintomi di reflusso acido (GERD) o dispepsia, quali delle seguenti situazioni rappresentano segnali d'allarme (Red Flags) che impongono l'invio al medico?",
+    "opzioni": {
+      "1": "Paziente di età superiore ai 50 anni che presenta sintomi dispeptici per la prima volta.",
+      "2": "Presenza di disfagia (difficoltà o dolore nella deglutizione).",
+      "3": "Episodi di vomito occasionale che si risolvono spontaneamente entro 48 ore.",
+      "4": "Perdita di peso non intenzionale e inspiegabile accompagnata dai disturbi gastrici."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "L'età > 50 anni con nuovi sintomi dispeptici, la disfagia e il calo ponderale non intenzionale sono 'Red Flags' che richiedono invio medico per escludere neoplasia. Il vomito occasionale che si risolve entro 48h non è necessariamente un'emergenza (il vomito persistente > 1 settimana lo sarebbe)."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "multipla_scelta",
+    "domanda": "In un paziente che ha subito un intervento di bypass gastrico (chirurgia bariatrica), quale raccomandazione riguardante l'uso dei farmaci è corretta?",
+    "opzioni": {
+      "A": "Tutti i farmaci devono essere assunti in forma liquida per garantire l'assorbimento.",
+      "B": "I FANS (NSAR) sono controindicati a causa dell'elevato rischio di ulcerazione nel piccolo stomaco residuo.",
+      "C": "I preparati a rilascio prolungato sono sempre preferibili per compensare il transito accelerato.",
+      "D": "Il bypass gastrico aumenta sistematicamente l'attivazione dei profarmaci (prodrugs) a livello intestinale."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "I FANS sono controindicati dopo chirurgia bariatrica per l'elevato rischio di irritazione e ulcerazione gastrointestinale nel residuo gastrico. I preparati a rilascio prolungato sono spesso sconsigliati (non adatti per il transito modificato), non raccomandati come 'sempre preferibili'."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "kprim",
+    "domanda": "Riguardo ai meccanismi d'azione e alla sicurezza d'uso dei lassativi, valutate le seguenti affermazioni:",
+    "opzioni": {
+      "1": "Il macrogol agisce puramente in modo fisico, legando l'acqua nel colon per aumentare il volume fecale e stimolare la motilità.",
+      "2": "Il bisacodile ha un meccanismo d'azione esclusivamente idratante, senza alcun effetto sulla propulsione motoria del colon.",
+      "3": "L'olio di paraffina è raccomandato come prima scelta pediatrica per la stitichezza cronica grazie alla sua elevata tollerabilità.",
+      "4": "L'uso regolare di lassativi osmotici salini (come il solfato di magnesio) può comportare un rischio di squilibri elettrolitici."
+    },
+    "risposta_corretta": "VFFV",
+    "motivazione": "Il macrogol (polietilenglicole) agisce fisicamente legando acqua, senza assorbimento sistemico. Il bisacodile è sia idratante che procinetico (stimola la motilità). L'olio di paraffina non è raccomandato in pediatria per il rischio di polmonite lipoidea da aspirazione. I sali osmotici possono causare squilibri elettrolitici (specialmente in pazienti con insufficienza renale)."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "multipla_scelta",
+    "domanda": "Quale rischio clinico è associato all'uso di inibitori di pompa protonica (PPI) in pazienti affetti da cirrosi epatica avanzata?",
+    "opzioni": {
+      "A": "Un aumento del rischio di peritonite batterica spontanea (PBS) dovuto alla ridotta barriera acida gastrica.",
+      "B": "Una riduzione eccessiva della sintesi di vitamina K, con conseguente rischio emorragico.",
+      "C": "I PPI accelerano la fibrosi epatica agendo direttamente sugli epatociti.",
+      "D": "Non esiste alcun rischio specifico; i PPI sono la terapia d'elezione per tutti i cirrotici."
+    },
+    "risposta_corretta": "A",
+    "motivazione": "Nella cirrosi epatica avanzata, la terapia con PPI è associata a un rischio significativamente aumentato di peritonite batterica spontanea (PBS) e altre infezioni gravi, per la riduzione della barriera acida che normalmente ostacola la colonizzazione batterica intestinale."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Gastroenterologia/Fegato/Reumatologia",
+    "tipo": "kprim",
+    "domanda": "Per consigliare correttamente un paziente sull'uso degli inibitori di pompa protonica (PPI), valutate la correttezza dei seguenti suggerimenti:",
+    "opzioni": {
+      "1": "I PPI dovrebbero essere assunti preferibilmente a stomaco vuoto, circa 30-60 minuti prima di un pasto, per massimizzare l'inibizione delle pompe protoniche.",
+      "2": "Il sollievo completo dai sintomi si ottiene solitamente entro 30-60 minuti dall'assunzione della prima dose.",
+      "3": "Inizialmente, se i sintomi sono intensi, è possibile combinare il PPI con un antacido per i primi giorni di trattamento.",
+      "4": "Il dexlansoprazolo richiede un'assunzione rigorosamente prima della colazione per evitare interazioni con il cibo."
+    },
+    "risposta_corretta": "VFVF",
+    "motivazione": "I PPI vanno assunti 30-60 min prima dei pasti (stomaco vuoto) per efficacia ottimale. L'effetto completo si ottiene dopo 2-5 giorni di trattamento, non dopo la prima dose. La combinazione con antacidi è possibile nei primi giorni per sollievo sintomatico immediato. Il dexlansoprazolo (a doppio rilascio) può essere assunto indipendentemente dai pasti, diversamente dagli altri PPI."
+  }
+]
