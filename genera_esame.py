@@ -254,15 +254,25 @@ def genera_batch(batch, ruolo_info, lingua, output_dir):
         argomento_breve=argomento_breve
     )
 
-    # Chiama NotebookLM
-    raw_output = call_notebooklm(prompt, notebook_id)
+    # Chiama NotebookLM (con retry se il JSON è malformato)
+    questions = None
+    for json_attempt in range(1, 4):  # max 3 tentativi per JSON invalido
+        raw_output = call_notebooklm(prompt, notebook_id)
+        try:
+            questions = extract_json_array(raw_output)
+            if questions:
+                break
+            log(f"Risposta vuota (tentativo JSON {json_attempt}/3)", "WARN")
+        except ValueError as e:
+            log(f"JSON non valido (tentativo JSON {json_attempt}/3): {e}", "WARN")
+            if json_attempt < 3:
+                log("Ritento la query...", "INFO")
+                time.sleep(10)
 
-    # Estrae JSON
-    questions = extract_json_array(raw_output)
     if not questions:
         preview = raw_output[:400].replace('\n', ' ') if raw_output else "(risposta vuota)"
         log(f"Risposta raw ricevuta: {preview}", "WARN")
-        raise ValueError(f"Nessun JSON array trovato nella risposta per {batch_id}")
+        raise ValueError(f"JSON non valido dopo 3 tentativi per {batch_id}")
 
     # Corregge chiavi kprim se necessario
     questions = fix_kprim_keys(questions)
