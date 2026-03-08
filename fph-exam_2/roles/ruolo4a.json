@@ -1,0 +1,142 @@
+[
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "multipla_scelta",
+    "domanda": "Una paziente di 28 anni si presenta in farmacia per una rinite allergica stagionale. Quale delle seguenti condizioni permette la \ndispensazione di un corticosteroide intranasale (INGK) in Lista B+ secondo la normativa svizzera?",
+    "opzioni": {
+      "A": "La paziente è al secondo mese di gravidanza.",
+      "B": "Il farmaco viene dispensato per una durata massima di 1 mese.",
+      "C": "La paziente ha un'età compresa tra i 12 e i 18 anni.",
+      "D": "I sintomi sono presenti da oltre 6 mesi in modo continuativo."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Secondo le condizioni della Lista B+ per la rinite allergica, la dispensazione è limitata a una durata massima di 1 mese [1]. È \nvietata in gravidanza/allattamento e il paziente deve avere più di 18 anni (eccetto per azelastina monopreparato) [1]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "kprim",
+    "domanda": "Un paziente asmatico noto si presenta in farmacia in stato di agitazione per un peggioramento della respirazione. Quali dei seguenti \nsegni sono considerati 'Red Flags' che richiedono la chiamata immediata al 144?",
+    "opzioni": {
+      "1": "Incapacità di pronunciare frasi complete (Sprechdyspnoe).",
+      "2": "Saturazione di ossigeno (SpO2) misurata pari all'88%.",
+      "3": "Frequenza respiratoria superiore a 30 atti al minuto.",
+      "4": "Presenza di cianosi (decolorazione bluastra di labbra o mucose)."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "Tutti i segni elencati sono criteri di emergenza vitale secondo gli algoritmi medinform e le linee guida GINA: la Sprechdyspnoe, una \nSpO2 < 90%, la tachipnea (>30/min) e la cianosi indicano un'esacerbazione grave o una minaccia vitale [2-4]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "multipla_scelta",
+    "domanda": "Secondo la classificazione GOLD 2023 per la BPCO, quale terapia farmacologica iniziale è raccomandata per un paziente appartenente al \n'Gruppo E'?",
+    "opzioni": {
+      "A": "Monoterapia con un broncodilatatore a breve durata (SABA o SAMA).",
+      "B": "Monoterapia con un LABA.",
+      "C": "Combinazione LABA + LAMA.",
+      "D": "Combinazione LABA + ICS, indipendentemente dal conteggio degli eosinofili."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Per il Gruppo E (pazienti con >= 2 esacerbazioni moderate o >= 1 con ospedalizzazione), la terapia iniziale preferita è la doppia \nbroncodilatazione LABA+LAMA [5]. L'aggiunta di ICS va considerata solo se gli eosinofili sono >= 300 cells/µL [5]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "kprim",
+    "domanda": "Riguardo alla tecnica di inalazione e alla gestione dei dispositivi, quali delle seguenti istruzioni fornite al banco sono corrette?",
+    "opzioni": {
+      "1": "Per il dispositivo Ellipta®, il farmaco deve essere eliminato 6 settimane dopo l'apertura della vaschetta di alluminio.",
+      "2": "Dopo l'uso di inalatori contenenti corticosteroidi (ICS), è necessario sciacquare la bocca o mangiare qualcosa.",
+      "3": "Gli inalatori a polvere secca (DPI) richiedono un'inspirazione lenta e costante per funzionare correttamente.",
+      "4": "In caso di attacco d'asma acuto, è preferibile usare un dosatore aerosol (MDI) con distanziatore (spacer) rispetto a un inalatore a polvere."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "Ellipta scade dopo 6 settimane dall'apertura [6]. Lo sciacquo post-ICS previene la candidosi orale [7, 8]. I DPI richiedono \nun'inspirazione forte e profonda (non lenta) [9]. Nelle emergenze l'MDI con spacer è preferito perché richiede meno sforzo inspiratorio [10, 11]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "multipla_scelta",
+    "domanda": "Un cliente chiede un consiglio per una tosse secca iniziata da una settimana. Riferisce di aver iniziato una nuova terapia antipertensiva\nnegli stessi giorni. Quale classe di farmaci è la più probabile causa del sintomo?",
+    "opzioni": {
+      "A": "Beta-bloccanti selettivi.",
+      "B": "Calcio-antagonisti.",
+      "C": "ACE-inibitori.",
+      "D": "Diuretici tiazidici."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Gli ACE-inibitori sono una causa classica di tosse secca e stizzosa che compare tipicamente entro una settimana dall'inizio del \ntrattamento [12-14]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "kprim",
+    "domanda": "In farmacia viene valutato un paziente con rinite allergica tramite la Scala Analogica Visiva (VAS). Quali delle seguenti affermazioni \nsulla gestione basata sulla VAS sono corrette?",
+    "opzioni": {
+      "1": "Un valore VAS >= 50 indica sintomi moderato-gravi.",
+      "2": "Se il VAS è < 50, il farmaco può essere scelto liberamente tra antistaminici o steroidi nasali.",
+      "3": "Se il VAS è >= 50, la prima scelta raccomandata sono i corticosteroidi intranasali (INGK).",
+      "4": "Se dopo 5-10 giorni di terapia il VAS rimane > 50, è necessario aumentare lo step terapeutico."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "La scala VAS guida la terapia: >= 50 indica gravità alta e predilige gli INGK [1, 15]. Sotto 50 c'è scelta libera [15]. La \nrivalutazione a 5-10 giorni prevede un aumento della terapia se il controllo è insufficiente (VAS > 50) [15]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "multipla_scelta",
+    "domanda": "Un atleta professionista asmatico chiede informazioni sull'uso del Salbutamolo (Ventolin®) inalatorio. Qual è il limite di dosaggio \nconsentito nelle 24 ore secondo le norme anti-doping (Swiss Sport Integrity)?",
+    "opzioni": {
+      "A": "800 µg nelle 24 ore.",
+      "B": "1600 µg nelle 24 ore, con dosi singole non superiori a 600 µg ogni 8 ore.",
+      "C": "54 µg nelle 24 ore.",
+      "D": "Il Salbutamolo è totalmente vietato in gara indipendentemente dal dosaggio."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Il Salbutamolo inalatorio è ammesso fino a 1600 µg/24h, con frazionamento di max 600 µg ogni 8 ore [16, 17]. La Terbutalina è invece \nvietata [17, 18]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "kprim",
+    "domanda": "Riguardo alla gestione della tosse in età pediatrica e adulta, quali delle seguenti affermazioni sulla durata e il triage sono \ncorrette?",
+    "opzioni": {
+      "1": "La tosse è considerata cronica negli adulti se persiste per più di 8 settimane.",
+      "2": "Nei bambini sotto i 14 anni, la tosse è definita cronica se dura più di 4 settimane.",
+      "3": "La combinazione di un antitussivo e un espettorante è raccomandata per accelerare la guarigione.",
+      "4": "Il miele ha dimostrato evidenze di efficacia nel ridurre la frequenza della tosse sopra i 12 mesi di età."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "La cronicità è definita come > 8 settimane (adulti) o > 4 settimane (bambini) [19, 20]. Combinare antitussivi ed espettoranti non ha \nsenso clinico e rischia il ristagno [19, 20]. Il miele è efficace e sicuro sopra l'anno [21, 22]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "multipla_scelta",
+    "domanda": "Quali sono le limitazioni specifiche per la dispensazione in Lista B+ della combinazione Budesonide/Formoterolo (es. Symbicort®) in \nfarmacia?",
+    "opzioni": {
+      "A": "Dispensabile per un massimo di 2 settimane a chiunque sopra i 6 anni.",
+      "B": "Singola dispensazione, solo per adulti non fumatori, con obbligo di notifica al medico.",
+      "C": "Dispensabile solo se il paziente ha con sé un piano d'azione scritto (Action Plan).",
+      "D": "Nessuna limitazione specifica oltre alla documentazione del colloquio."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "La combinazione Budesonide/Formoterolo in B+ prevede una singola dispensazione, è riservata agli adulti non fumatori e richiede \nl'avviso obbligatorio al medico curante [11, 23]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - malattie respiratorie",
+    "tipo": "kprim",
+    "domanda": "Un paziente asmatico chiede un analgesico per il mal di denti. Sapendo che l'aspirina può scatenare broncocostrizione nel 21% degli \nasmatici, quali affermazioni sono corrette?",
+    "opzioni": {
+      "1": "I FANS non selettivi (es. Ibuprofene) devono essere evitati per l'elevata sensibilità incrociata.",
+      "2": "Il Paracetamolo è generalmente sicuro se assunto a dosaggi inferiori a 1000 mg.",
+      "3": "L'intolleranza all'aspirina è spesso associata alla presenza di polipi nasali (Triade di Vidal).",
+      "4": "In caso di intolleranza nota, è obbligatorio indirizzare il paziente al medico per ogni analgesico."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "Esiste sensibilità incrociata con i FANS (V). Il paracetamolo < 1000mg è l'alternativa sicura (V). La triade di \npolipi/asma/intolleranza è tipica (V). Il farmacista può gestire la scelta dell'alternativa sicura (es. paracetamolo) senza obbligo di rinvio sistematico\nse non ci sono Red Flags (F) [Fonte esterna/conoscenza FPH supportata dal triage]."
+  }
+]

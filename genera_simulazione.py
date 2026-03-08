@@ -10,8 +10,11 @@ import glob
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SOURCE_FILE = os.path.join(BASE_DIR, "esame_fph_100_domande.json")
 TESTS_DIR = os.path.join(BASE_DIR, "src", "data", "tests")
+
+# Cerca automaticamente il file esame più recente nella cartella
+_candidates = sorted(glob.glob(os.path.join(BASE_DIR, "esame_fph_*.json")), reverse=True)
+SOURCE_FILE = _candidates[0] if _candidates else os.path.join(BASE_DIR, "esame_fph_100_domande.json")
 TIMER_MINUTI = 210  # 3 ore e mezza
 
 
@@ -41,10 +44,7 @@ def main():
         "questions": domande,
     }
 
-    # Elimina vecchie simulazioni
-    for v in glob.glob(os.path.join(TESTS_DIR, "simulazione-*.json")):
-        os.remove(v)
-        print(f"Eliminata: {os.path.basename(v)}")
+    # Le vecchie simulazioni vengono mantenute
 
     os.makedirs(TESTS_DIR, exist_ok=True)
     out_path = os.path.join(TESTS_DIR, f"{test_id}.json")

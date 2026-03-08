@@ -1,0 +1,44 @@
+[
+  {
+    "ruolo": 3,
+    "tema": "Medicina complementare - omeopatia",
+    "tipo": "multipla_scelta",
+    "domanda": "Una cliente chiede una potenza omeopatica C200 per un trauma fisico recente, ritenendo che una potenza elevata sia necessariamente più efficace. \nQuale spiegazione corretta deve fornire il farmacista basandosi sulla teoria delle potenze?",
+    "opzioni": {
+      "A": "Le potenze elevate (> D/C 30) sono le più indicate per i disturbi puramente fisici poiché agiscono più rapidamente.",
+      "B": "Non si può generalizzare sull'efficacia; i disturbi fisici guariscono spesso meglio con le potenze basse (< D/C 12).",
+      "C": "L'effetto di una potenza C200 è limitato a poche ore e richiede somministrazioni ogni 30 minuti.",
+      "D": "Le potenze medie (D/C 12) sono le uniche approvate in Svizzera per il trattamento dei traumi fisici."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Secondo le fonti, non è possibile generalizzare affermando che una potenza elevata sia sempre più efficace [1]. I disturbi fisici guariscono \nmeglio con le potenze basse (< D/C 12), che hanno un effetto fisico e una durata di poche ore [1, 2]. Al contrario, le potenze elevate (> D/C 30) hanno un raggio \nd'azione più profondo che coinvolge i livelli mentale e psichico per diverse settimane [2]."
+  },
+  {
+    "ruolo": 3,
+    "tema": "Medicina complementare - omeopatia",
+    "tipo": "kprim",
+    "domanda": "Un paziente descrive un'infiammazione acuta con dolore pungente, calore e gonfiore, che migliora applicando ghiaccio. Il farmacista valuta l'uso di \nApis mellifica. Valutate le seguenti affermazioni relative a questo quadro farmacologico:",
+    "opzioni": {
+      "1": "L'indicazione è corretta in quanto Apis è indicato per infiammazioni acute, rapide e improvvise con dolore pungente.",
+      "2": "Il miglioramento con il freddo (impacchi, aria fresca) è una modalità caratteristica che conferma la scelta del rimedio.",
+      "3": "In questo quadro clinico, la presenza di una sete intensa è un sintomo generale fondamentale per confermare Apis.",
+      "4": "Il peggioramento dei sintomi con il contatto o la pressione è coerente con il quadro farmacologico di Apis."
+    },
+    "risposta_corretta": "VVFV",
+    "motivazione": "Apis mellifica è indicato per infiammazioni acute (non purulente) con dolore pungente e lancinante [3, 4]. Tra le modalità positive vi è il \nmiglioramento con il freddo [4]. Un sintomo generale caratteristico è invece l'assenza di sete, nonostante la bocca secca [5]. Il contatto e la pressione \nrappresentano modalità di peggioramento per questo rimedio [4, 5]."
+  },
+  {
+    "ruolo": 3,
+    "tema": "Medicina complementare - omeopatia",
+    "tipo": "multipla_scelta",
+    "domanda": "Durante una consulenza per l'uso di uno spray cicatrizzante omeopatico (tipo Similasan) su una ferita, quale delle seguenti condizioni rappresenta \nuna 'Bandiera Rossa' che impone l'invio immediato al medico?",
+    "opzioni": {
+      "A": "La ferita presenta piccole croste superficiali ed è stata pulita adeguatamente.",
+      "B": "La ferita è stata causata da un morso o da una punta (rischio tetano).",
+      "C": "Il paziente ha più di 75 anni e assume farmaci per l'ipertensione.",
+      "D": "Il dolore della ferita è descritto come bruciante ma non è presente febbre."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Le ferite da morso, da punta, quelle profonde o molto sporche richiedono obbligatoriamente un trattamento medico per il rischio di tetano [6, \n7]. Le piccole ferite con croste sono invece un'indicazione d'uso per lo spray [8, 9]. Altri segnali d'allarme includono febbre, bordi molto arrossati, gonfiore \nimprovviso o ferite che non guariscono entro 7 giorni [6]."
+  }
+]

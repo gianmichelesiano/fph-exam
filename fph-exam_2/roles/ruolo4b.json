@@ -1,0 +1,142 @@
+[
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Triage e Segnali d'allarme",
+    "tipo": "multipla_scelta",
+    "domanda": "Una paziente di 68 anni lamenta un forte mal di schiena insorto dopo uno sforzo. Durante l'anamnesi tramite protocollo LINDAFF, riferisce\nuna perdita di sensibilità nell'area del perineo (anestesia a sella) e una leggera difficoltà a controllare la minzione. Qual è la condotta corretta del \nfarmacista?",
+    "opzioni": {
+      "A": "Dispensare Ibuprofene 600 mg (Lista B+) e rivalutare dopo 3 giorni.",
+      "B": "Consigliare Metamizolo 500 mg e impacchi caldi locali.",
+      "C": "Inviare immediatamente la paziente al pronto soccorso (ospedalizzazione d'urgenza).",
+      "D": "Consigliare una visita dal medico di famiglia entro le successive 48 ore."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "L'anestesia a sella e l'incontinenza urinaria di nuova insorgenza sono 'Red Flags' che indicano una possibile sindrome della cauda \nequina, un'emergenza neurologica che richiede ospedalizzazione immediata per prevenire danni permanenti [1-3]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Ibuprofene (Farmacologia e Lista B+)",
+    "tipo": "kprim",
+    "domanda": "Riguardo alle proprietà dell'ibuprofene e alla sua dispensazione senza ricetta (Lista B+), valutare la veridicità delle seguenti \naffermazioni:",
+    "opzioni": {
+      "1": "L'effetto analgesico e antipiretico dell'ibuprofene presenta un 'effetto soffitto' (ceiling effect) a una dose singola di 400 mg.",
+      "2": "A differenza dell'effetto analgesico, l'effetto antinfiammatorio (antiflogistico) aumenta proporzionalmente con dosi superiori a 400 mg.",
+      "3": "Secondo le regole della Lista B+, la dose massima giornaliera dispensabile è di 2400 mg.",
+      "4": "In caso di infezione da varicella, l'ibuprofene è considerato il farmaco di prima scelta per gestire la febbre nel bambino."
+    },
+    "risposta_corretta": "VVFF",
+    "motivazione": "L'effetto analgesico ha un tetto a 400 mg, mentre quello antinfiammatorio cresce con la dose [4]. Il limite giornaliero per la Lista \nB+ è di 1800 mg (non 2400 mg) [5, 6]. La varicella è una controindicazione per il rischio di gravi complicazioni infettive cutanee necrotizzanti [7]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Metamizolo (Sicurezza e Interazioni)",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente che assume Sertralina (SSRI) per una depressione maggiore richiede del Metamizolo per un forte dolore colico. Quale \npotenziale interazione farmacocinetica deve considerare il farmacista basandosi sulle fonti?",
+    "opzioni": {
+      "A": "Il metamizolo inibisce il metabolismo della sertralina, aumentando il rischio di sindrome serotoninergica.",
+      "B": "Il metamizolo può indurre gli enzimi CYP2B6 e CYP3A4, riducendo potenzialmente i livelli plasmatici di sertralina.",
+      "C": "La combinazione aumenta drasticamente il rischio di agranulocitosi dose-dipendente.",
+      "D": "Non esiste alcuna interazione rilevante tra queste due classi di farmaci."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Il metamizolo è un induttore enzimatico (CYP2B6 e CYP3A4) e può ridurre i livelli plasmatici di diversi farmaci, tra cui sertralina, \nmetadone e bupropione [8-10]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Paracetamolo (Tossicità e Dosaggio)",
+    "tipo": "kprim",
+    "domanda": "Sulla sicurezza e l'uso del paracetamolo in gruppi di pazienti specifici, valutare le seguenti affermazioni:",
+    "opzioni": {
+      "1": "In pazienti con consumo cronico di alcol o malnutrizione, la dose massima giornaliera deve essere ridotta a 2 grammi.",
+      "2": "Il paracetamolo è considerato il farmaco di prima scelta per il trattamento della lombalgia acuta (mal di schiena).",
+      "3": "L'antidoto d'elezione per il sovradosaggio acuto è la N-acetilcisteina.",
+      "4": "Il paracetamolo può causare epatotossicità grave se la dose singola supera gli 8 grammi in un adulto sano."
+    },
+    "risposta_corretta": "VFVV",
+    "motivazione": "Il limite per gli alcolisti è 2g/die [11, 12]. Studi Cochrane indicano che il paracetamolo non è superiore al placebo per la \nlombalgia [13, 14]. La N-acetilcisteina è l'antidoto [11, 12]. Una dose singola >7.5-8g è considerata tossica per il fegato [11, 12, 15]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - FANS e Rischio Cardiovascolare",
+    "tipo": "multipla_scelta",
+    "domanda": "Quale dei seguenti FANS (NSAR) della Lista B+ deve essere evitato in pazienti con insufficienza cardiaca scompensata (NYHA III-IV) o alto\nrischio ischemico a causa della sua elevata selettività COX-2?",
+    "opzioni": {
+      "A": "Naprossene",
+      "B": "Ibuprofene",
+      "C": "Diclofenac",
+      "D": "Acido acetilsalicilico"
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Il Diclofenac ha una selettività per la COX-2 paragonabile ai Coxib, il che conferisce il rischio cardiovascolare più elevato tra i \nFANS tradizionali [16-18]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Interazioni Farmacologiche (Nefrotossicità)",
+    "tipo": "kprim",
+    "domanda": "La combinazione di FANS con altri farmaci può portare al cosiddetto 'Triple Whammy' (danno renale acuto). Valutare la pericolosità delle \nseguenti combinazioni:",
+    "opzioni": {
+      "1": "FANS + ACE-inibitore + Diuretico.",
+      "2": "FANS + Sartano + Diuretico.",
+      "3": "FANS + Beta-bloccante + Calcio-antagonista.",
+      "4": "Paracetamolo + ACE-inibitore + Diuretico."
+    },
+    "risposta_corretta": "VVFF",
+    "motivazione": "Il 'Triple Whammy' è causato dalla combinazione di un FANS (che riduce l'afflusso di sangue al glomerulo) con ACE-inibitori/Sartani e\ndiuretici (che riducono la pressione di filtrazione e il volume), portando a insufficienza renale [19-21]. Il paracetamolo non ha questo effetto."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Parkinson (Neurologia)",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente anziano in terapia con Levodopa/Benserazide lamenta che il farmaco sembra non funzionare bene dopo pranzo. Quale consiglio \nclinico (non presente direttamente nelle fonti ma parte delle competenze FPH) è più appropriato?",
+    "opzioni": {
+      "A": "Assumere il farmaco contemporaneamente a un pasto ricco di proteine per favorire l'assorbimento.",
+      "B": "Assumere il farmaco almeno 30-60 minuti prima dei pasti per evitare la competizione degli aminoacidi alimentari per il trasporto \nintestinale.",
+      "C": "Raddoppiare la dose di levodopa solo durante i pasti.",
+      "D": "Sostituire la benserazide con il paracetamolo per ridurre il tremore."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Le proteine competono con la levodopa per i trasportatori degli aminoacidi a catena lunga. Assumere il farmaco lontano dai pasti \nproteici migliora la biodisponibilità e riduce le fluttuazioni motorie (conoscenza clinica standard del farmacista FPH)."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - SSRI e Rischio di Sanguinamento",
+    "tipo": "kprim",
+    "domanda": "In merito all'uso concomitante di antidepressivi SSRI (es. Fluoxetina, Sertralina) e FANS, valutare le seguenti affermazioni:",
+    "opzioni": {
+      "1": "L'uso combinato aumenta significativamente il rischio di emorragie del tratto gastrointestinale.",
+      "2": "Il rischio è dovuto all'inibizione del reuptake della serotonina nelle piastrine da parte degli SSRI, che altera l'emostasi.",
+      "3": "In questi pazienti, il paracetamolo è considerato l'analgetico di prima scelta per evitare il rischio emorragico.",
+      "4": "L'aggiunta di un inibitore della pompa protonica (PPI) non ha alcun effetto protettivo in questa combinazione."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "Gli SSRI aumentano il rischio di sanguinamento se usati con FANS [21-23]. Il paracetamolo è più sicuro [24]. I PPI sono raccomandati \nper ridurre il rischio di ulcere e sanguinamenti gastrici in pazienti ad alto rischio che usano FANS [25, 26]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - ADHD (Psichiatria)",
+    "tipo": "multipla_scelta",
+    "domanda": "Nella dispensazione di uno stimolante (es. Metilfenidato) per il trattamento dell'ADHD, quale parametro fisico deve essere monitorato con\npriorità assoluta per la sicurezza a lungo termine?",
+    "opzioni": {
+      "A": "La circonferenza addominale.",
+      "B": "L'altezza, il peso e la pressione arteriosa del bambino.",
+      "C": "La densità ossea tramite mineralometria (MOC).",
+      "D": "I livelli sierici di potassio e magnesio."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Gli stimolanti possono causare soppressione dell'appetito e influire sulla crescita, oltre ad avere potenziali effetti \ncardiovascolari (aumento della pressione e della frequenza cardiaca) (conoscenza clinica standard FPH)."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - Protocollo LINDAFF",
+    "tipo": "kprim",
+    "domanda": "Il protocollo LINDAFF è fondamentale per la consulenza del dolore in farmacia. Valutare se le seguenti lettere corrispondono al corretto \nambito di indagine:",
+    "opzioni": {
+      "1": "L = Lokalisation: localizzazione e irradiazione del dolore.",
+      "2": "I = Intensität: valutazione della forza del dolore (es. scala da 1 a 10).",
+      "3": "D = Dauer: durata dei sintomi e modalità di insorgenza (acuta o cronica).",
+      "4": "A = Auslöser: fattori scatenanti o allevianti (es. movimento, calore)."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "Il LINDAFF segue: Localizzazione, Intensità, Nuova/già nota, Durata, Anamnesi (altre malattie/allergie), Fattori \nscatenanti/attenuanti, Farmaci già provati [27-29]."
+  }
+]

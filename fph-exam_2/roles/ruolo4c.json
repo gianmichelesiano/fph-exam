@@ -1,0 +1,142 @@
+[
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente con insufficienza cardiaca HFrEF deve passare dalla terapia con Enalapril a Sacubitril/Valsartan (Entresto®). Quale \nistruzione fondamentale deve fornire il farmacista per garantire la sicurezza del paziente?",
+    "opzioni": {
+      "A": "Può assumere la prima dose di Sacubitril/Valsartan 12 ore dopo l'ultima dose di Enalapril.",
+      "B": "Deve rispettare un periodo di lavaggio (wash-out) di almeno 36 ore tra l'ultima dose di ACE-inibitore e la prima di ARNI.",
+      "C": "Deve sospendere l'ACE-inibitore per 7 giorni prima di iniziare la nuova terapia combinata.",
+      "D": "Può iniziare immediatamente Sacubitril/Valsartan, poiché Valsartan protegge dall'angioedema."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "In base alle fonti, il passaggio da un ACE-inibitore a un ARNI (Sacubitril/Valsartan) richiede tassativamente un intervallo di almeno\n36 ore per ridurre il rischio di angioedema grave [1-3]. Le altre opzioni ignorano questo intervallo di sicurezza critico."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "kprim",
+    "domanda": "In merito alla gestione degli Anticoagulanti Orali Diretti (DOAC) in Svizzera, quali delle seguenti affermazioni sono corrette?",
+    "opzioni": {
+      "1": "Rivaroxaban (Xarelto®) ai dosaggi di 15 mg e 20 mg deve essere assunto obbligatoriamente con un pasto per garantirne la biodisponibilità.",
+      "2": "L'iperico (erba di San Giovanni) riduce i livelli plasmatici dei DOAC, aumentando il rischio di eventi trombotici.",
+      "3": "Dabigatran (Pradaxa®) è l'unico DOAC la cui eliminazione è prevalentemente renale (circa l'80%).",
+      "4": "In caso di dimenticanza di una dose, il rischio di trombosi aumenta markant già dopo poche ore a causa della loro emivita breve."
+    },
+    "risposta_corretta": "VVVV",
+    "motivazione": "1: Vero, il cibo aumenta la biodisponibilità di Rivaroxaban ad alto dosaggio [4]. 2: Vero, l'iperico è un induttore che riduce \nl'efficacia dei DOAC [5, 6]. 3: Vero, Dabigatran ha l'80% di escrezione renale [4, 7]. 4: Vero, la breve emivita dei DOAC rende l'aderenza cruciale per \nevitare rischi trombotici [8]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "multipla_scelta",
+    "domanda": "Secondo le attuali linee guida svizzere ed europee (AGLA/ESC), qual è il valore target di colesterolo LDL per un paziente a 'rischio \nmolto alto' (es. prevenzione secondaria post-infarto)?",
+    "opzioni": {
+      "A": "< 2,6 mmol/L.",
+      "B": "< 1,8 mmol/L.",
+      "C": "< 1,4 mmol/L e una riduzione di almeno il 50% rispetto al valore basale.",
+      "D": "< 1,1 mmol/L."
+    },
+    "risposta_corretta": "C",
+    "motivazione": "Per i pazienti a rischio molto alto, l'obiettivo è un valore LDL < 1,4 mmol/L combinato con una riduzione di almeno il 50% rispetto \nai livelli iniziali [9-11]. Gli altri valori corrispondono a categorie di rischio inferiori."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "kprim",
+    "domanda": "Riguardo al trattamento dell'ipertensione in gravidanza, quali delle seguenti affermazioni sono corrette basandosi sulle fonti \ncliniche?",
+    "opzioni": {
+      "1": "Gli ACE-inibitori e i sartani sono assolutamente controindicati a causa del rischio di fetotossicità.",
+      "2": "Il Labetalolo è considerato un farmaco di prima scelta in questo contesto.",
+      "3": "L'alfa-Metildopa è una delle opzioni terapeutiche sicure e raccomandate.",
+      "4": "I calcio-antagonisti diidropiridinici (es. Nifedipina) non devono mai essere usati durante la gestazione."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "1, 2, 3: Sono corretti, i RAAS-inibitori sono vietati, mentre Labetalolo e Metildopa sono preferiti [12, 13]. 4: Falso, i \ncalcio-antagonisti (come i derivati della diidropiridina o Verapamil) sono citati come alternative sicure [12]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "multipla_scelta",
+    "domanda": "Un paziente con insufficienza cardiaca cronica inizia la terapia con Empagliflozin (Jardiance®) 10 mg. Quale consiglio di consulenza \nclinica deve prioritariamente fornire il farmacista?",
+    "opzioni": {
+      "A": "Il farmaco va titolato lentamente ogni 2 settimane partendo da 2,5 mg.",
+      "B": "È fondamentale mantenere un'accurata igiene urogenitale per prevenire infezioni micotiche dovute alla glicosuria.",
+      "C": "Il farmaco deve essere assunto solo la sera per evitare cali pressori diurni.",
+      "D": "In caso di dimenticanza, assumere una doppia dose il giorno successivo."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Gli SGLT2-inibitori causano glicosuria, aumentando il rischio di infezioni genitali; una buona igiene è un consiglio pratico \nessenziale [14, 15]. Per lo scompenso cardiaco si usa una dose fissa di 10 mg senza necessità di titolazione [14, 16]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "kprim",
+    "domanda": "In merito alla doppia antiaggregazione piastrinica (DAPT) dopo una sindrome coronarica acuta (ACS) con posa di stent, quali affermazioni \nsono corrette?",
+    "opzioni": {
+      "1": "Il Ticagrelor (Brilique®) deve essere somministrato alla dose di 90 mg due volte al giorno.",
+      "2": "Il Prasugrel (Efient®) è controindicato nei pazienti con anamnesi di ictus o TIA.",
+      "3": "La durata standard raccomandata della DAPT è solitamente di 12 mesi.",
+      "4": "In un paziente di 80 anni, se si usa Prasugrel, la dose di mantenimento deve essere di 10 mg."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "1, 2, 3: Corretti in base alle indicazioni e controindicazioni dei farmaci [17, 18]. 4: Falso, sopra i 75 anni la dose di \nmantenimento di Prasugrel deve essere ridotta a 5 mg per motivi di sicurezza [18]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "multipla_scelta",
+    "domanda": "Quale delle seguenti combinazioni farmacologiche descrive il fenomeno noto come 'Triple Whammy', che espone il paziente a un elevato \nrischio di insufficienza renale acuta?",
+    "opzioni": {
+      "A": "ACE-inibitore/Sartano + Diuretico + FANS.",
+      "B": "Statina + Fibrato + Omega-3.",
+      "C": "Betabloccante + Calcio-antagonista + Aspirina.",
+      "D": "Metformina + SGLT2-inibitore + DPP4-inibitore."
+    },
+    "risposta_corretta": "A",
+    "motivazione": "Il 'Triple Whammy' è causato dalla combinazione di RAAS-inibitori, diuretici e FANS, che compromettono gravemente l'autoregolazione \ndella pressione di filtrazione renale [19-21]. Le altre combinazioni non hanno questo specifico effetto emodinamico."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "kprim",
+    "domanda": "L'Amiodarone è un antiaritmico potente con un profilo di sicurezza complesso. Quali delle seguenti affermazioni sono vere secondo le \nfonti?",
+    "opzioni": {
+      "1": "Può causare sia ipotiroidismo che ipertiroidismo a causa dell'alto contenuto di iodio.",
+      "2": "Aumenta significativamente i livelli plasmatici di Digossina (fino al 70%).",
+      "3": "I depositi corneali si verificano nella quasi totalità dei pazienti trattati a lungo termine, ma raramente influenzano la vista.",
+      "4": "L'effetto collaterale più frequente che porta alla sospensione è l'edema malleolare dose-dipendente."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "1, 2, 3: Corretti in base alle caratteristiche e interazioni note dell'Amiodarone [5, 22]. 4: Falso, l'edema malleolare è tipico dei \ncalcio-antagonisti diidropiridinici, non dell'amiodarone [23]."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "multipla_scelta",
+    "domanda": "In un paziente affetto da arteriopatia periferica occlusiva (PAVK) in stadio II (claudicatio intermittens), qual è la misura terapeutica \npiù efficace per raddoppiare la distanza di cammino indolore?",
+    "opzioni": {
+      "A": "L'assunzione giornaliera di aspirina 100 mg.",
+      "B": "L'allenamento strutturato al cammino (Gehtraining) per almeno 30 minuti, 3 volte a settimana.",
+      "C": "L'utilizzo costante di calze a compressione graduata classe 3.",
+      "D": "Il trattamento con statine ad alto dosaggio come unica misura."
+    },
+    "risposta_corretta": "B",
+    "motivazione": "Nello stadio II della PAVK, il Gehtraining è considerato la terapia più efficace, capace di raddoppiare la distanza percorsa grazie \nallo sviluppo di circoli collaterali [24]. Le altre misure prevengono eventi cardiovascolari ma non migliorano direttamente la distanza di cammino."
+  },
+  {
+    "ruolo": 4,
+    "tema": "Farmacia clinica - cardiovascolare",
+    "tipo": "kprim",
+    "domanda": "Riguardo alla profilassi dell'endocardite infettiva secondo le linee guida svizzere, quali affermazioni sono corrette?",
+    "opzioni": {
+      "1": "È indicata solo per pazienti ad alto rischio, come quelli portatori di valvole cardiache artificiali.",
+      "2": "Il regime standard prevede l'assunzione di 2 g di Amoxicillina un'ora prima dell'intervento odontoiatrico.",
+      "3": "Procedure come la rimozione del tartaro (pulizia dentale) che lesionano la mucosa richiedono la profilassi nei soggetti a rischio.",
+      "4": "In caso di allergia alle penicilline di tipo immediato, il Metronidazolo è l'alternativa di prima scelta."
+    },
+    "risposta_corretta": "VVVF",
+    "motivazione": "1, 2, 3: Corretti, la profilassi è ristretta all'alto rischio e include procedure odontoiatriche invasive [25]. 4: Falso, \nl'alternativa raccomandata in caso di allergia alla penicillina è la Clindamicina (600 mg) [25]."
+  }
+]

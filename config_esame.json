@@ -1,0 +1,143 @@
+{
+  "esame": {
+    "nome": "FPH Farmacista Specialista - Farmacia Officinale",
+    "versione": "1.0",
+    "soglia_superamento": 67,
+    "output_dir": "fph-exam_2",
+    "lingua": "italiano"
+  },
+  "ruoli": [
+    {
+      "ruolo": 1,
+      "nome": "Validazione ricette e piani terapeutici",
+      "batches": [
+        {
+          "id": "ruolo1",
+          "notebook": "282ed964-3d87-4bae-93de-85564284987b",
+          "n_domande": 7,
+          "argomento": "validazione ricette mediche, piani terapeutici, interazioni farmacologiche rilevanti, polifarmacia, prescrizioni ripetibili, errori di dosaggio, controindicazioni"
+        }
+      ]
+    },
+    {
+      "ruolo": 2,
+      "nome": "Fitoterapia",
+      "batches": [
+        {
+          "id": "ruolo2",
+          "notebook": "488318a6-e0c7-47d7-852e-79f4bde754e9",
+          "n_domande": 3,
+          "argomento": "fitoterapia, piante medicinali, estratti vegetali, interazioni piante-farmaci, legislazione svizzera sui fitoterapici"
+        }
+      ]
+    },
+    {
+      "ruolo": 3,
+      "nome": "Medicina complementare",
+      "batches": [
+        {
+          "id": "ruolo3",
+          "notebook": "278c368e-b885-4858-a34d-a2df31683080",
+          "n_domande": 3,
+          "argomento": "omeopatia, metodo omeopatico, potenze omeopatiche, medicina complementare, antroposofia, TCM in farmacia"
+        }
+      ]
+    },
+    {
+      "ruolo": 4,
+      "nome": "Farmacia clinica",
+      "batches": [
+        {
+          "id": "ruolo4a",
+          "notebook": "692dbd5d-7dad-4d78-9d0f-03a765c23612",
+          "n_domande": 10,
+          "argomento": "malattie respiratorie, asma, BPCO, allergie stagionali, rinite, farmaci inalatori, LABA, SABA, ICS, antiistaminici, ARIA, GOLD"
+        },
+        {
+          "id": "ruolo4b",
+          "notebook": "b4a70a09-cd67-48db-a015-8310294d1d59",
+          "n_domande": 10,
+          "argomento": "dolore cronico e acuto, neurologia, psichiatria, oppioidi, FANS, paracetamolo, antidepressivi SSRI, antiepilettici, Parkinson, ADHD, protocollo LINDAFF"
+        },
+        {
+          "id": "ruolo4c",
+          "notebook": "9f80ddf6-d5bc-4940-a146-4f497f045148",
+          "n_domande": 10,
+          "argomento": "cardiovascolare, ipertensione, scompenso cardiaco, DOAC, anticoagulanti, statine, SGLT2 inibitori, antiaggreganti, aritmia, endocardite, arteriopatia periferica, Triple Whammy"
+        },
+        {
+          "id": "ruolo4d",
+          "notebook": "9ecb9092-02d7-40a8-b54d-333ab09cedef",
+          "n_domande": 10,
+          "argomento": "dermatologia, acne, psoriasi, eczema, dermatomicosi, dermatite atopica, ginecologia, infezioni vaginali, contraccezione, HPV, malattie cutanee nei bambini, dermocorticoidi Lista B+"
+        },
+        {
+          "id": "ruolo4e",
+          "notebook": "ea036cfb-781f-4b4a-af67-a150e73ceb6b",
+          "n_domande": 10,
+          "argomento": "gastroenterologia, malattie intestinali, Crohn, colite ulcerosa, reflusso GERD, dispepsia, PPI, lassativi, cirrosi epatica, chirurgia bariatrica, reumatologia, FANS e gastroprotezione"
+        }
+      ]
+    },
+    {
+      "ruolo": 5,
+      "nome": "Anamnesi e terapia",
+      "batches": [
+        {
+          "id": "ruolo5",
+          "notebook": "e76a358e-66da-443b-90a7-47421386992c",
+          "n_domande": 10,
+          "argomento": "anamnesi in farmacia, consulenza al banco, cure primarie, triage, red flags, gestione del paziente cronico, aderenza terapeutica, counselling farmaceutico"
+        }
+      ]
+    },
+    {
+      "ruolo": 6,
+      "nome": "Preparazione di medicinali",
+      "batches": [
+        {
+          "id": "ruolo6",
+          "notebook": "a9d2f4fb-e95d-4016-83e5-ca2f3af55619",
+          "n_domande": 7,
+          "argomento": "preparazione galenica, farmaci magistrali, norme GMP svizzere, categorie di dispensazione, Lista A/B/C, calcoli farmaceutici, preparazioni sterili e non sterili"
+        }
+      ]
+    },
+    {
+      "ruolo": 7,
+      "nome": "Risultati di laboratorio",
+      "batches": [
+        {
+          "id": "ruolo7",
+          "notebook": "cb6ad501-eb5c-4eac-9be5-2889c4316e71",
+          "n_domande": 7,
+          "argomento": "analisi di laboratorio, interpretazione esami ematici, funzione renale eGFR, funzione epatica, emocromo, glicemia HbA1c, INR, elettroliti, CRP, valori di riferimento"
+        }
+      ]
+    },
+    {
+      "ruolo": 8,
+      "nome": "Situazioni d'emergenza",
+      "batches": [
+        {
+          "id": "ruolo8",
+          "notebook": "3111ff5d-0c02-47ca-b7c4-75d993ae7f34",
+          "n_domande": 7,
+          "argomento": "situazioni di emergenza in farmacia, BLS, anafilassi, ipoglicemia, overdose, set di emergenza, allertamento soccorsi 144, triage urgenze, RCP"
+        }
+      ]
+    },
+    {
+      "ruolo": 9,
+      "nome": "Vaccinazioni e prelievi",
+      "batches": [
+        {
+          "id": "ruolo9",
+          "notebook": "3111ff5d-0c02-47ca-b7c4-75d993ae7f34",
+          "n_domande": 7,
+          "argomento": "vaccinazioni in farmacia, piano vaccinale svizzero, prelievo di sangue capillare, farmacovigi lanza, segnalazione effetti avversi, vaccini anti-influenzali, COVID, HPV, viaggi"
+        }
+      ]
+    }
+  ]
+}
