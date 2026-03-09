@@ -11,14 +11,15 @@ export default function QuestionTrueFalse({ question, answer, onChange, showResu
       {question.items.map((item, i) => {
         const selected = answers[i]
         const isCorrect = item.correct
+        const userCorrect = showResult && selected === isCorrect
 
         return (
           <div key={i} className={`p-4 rounded-xl border-2 transition-all ${
             showResult
-              ? isCorrect ? 'border-green-300 bg-green-50' : 'border-red-200 bg-red-50'
+              ? userCorrect ? 'border-green-500 bg-green-200' : 'border-red-500 bg-red-200'
               : 'border-gray-200 bg-white'
           }`}>
-            <p className="text-sm text-gray-800 mb-3 leading-relaxed">{item.text}</p>
+            <p className={`text-sm mb-3 leading-relaxed ${showResult ? (userCorrect ? 'text-green-900' : 'text-red-900') : 'text-gray-800'}`}>{item.text}</p>
             <div className="flex gap-2">
               {[true, false].map(val => {
                 const isSelected = selected === val
