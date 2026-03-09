@@ -29,7 +29,7 @@
         "1": "L'uso concomitante di Escitalopram e Claritromicina è considerato controindicato nelle Informazioni Professionali svizzere.",
         "2": "L'effetto di prolungamento del QT è additivo perché entrambi i farmaci agiscono potenzialmente sui canali del potassio (hERG).",
         "3": "L'Escitalopram presenta un rischio di prolungamento del QT significativamente superiore (circa il doppio) rispetto al Citalopram.",
-        "4": "La Claritromicina, essendo un potente inibitore del CYP3A4, può aumentare i livelli plasmatici di Escitalopram, potenziandone la tossicità cardiaca."
+        "4": "La Claritromicina, essendo un potente inibitore del CYP3A4, può aumentare i liIvelli plasmatici di Escitalopram, potenziandone la tossicità cardiaca."
       },
       "risposta_corretta": "VVFV",
       "motivazione": "1: Vero, la combinazione tra farmaci che prolungano il QT è spesso classificata come controindicata [5, 6]. 2: Vero, il meccanismo principale è l'inibizione \ndei canali cardiaci del potassio [7, 8]. 3: Falso, l'Escitalopram prolunga il QT circa il 50% in MENO rispetto al Citalopram [9]. 4: Vero, l'inibizione del metabolismo via CYP3A4 \nda parte dei macrolidi aumenta l'esposizione agli SSRI, incrementando il rischio dose-dipendente di aritmie [10, 11].",

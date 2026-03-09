@@ -49,7 +49,7 @@ export default function Results() {
         {/* Score card */}
         <div className={`card text-center border-2 ${passed ? 'border-green-300 bg-green-50' : 'border-red-200 bg-red-50'}`}>
           <div className={`text-6xl font-black ${passed ? 'text-green-600' : 'text-red-500'}`}>{pct}%</div>
-          <div className="text-lg font-semibold text-gray-800 mt-1">{score} / {total} corrette</div>
+          <div className="text-lg font-semibold text-gray-800 mt-1">{Number.isInteger(score) ? score : score.toFixed(1)} / {total} corrette</div>
           <div className={`mt-2 text-sm font-semibold ${passed ? 'text-green-700' : 'text-red-600'}`}>
             {passed ? 'Superato!' : `Non superato (soglia 67%)`}
           </div>
@@ -77,14 +77,20 @@ export default function Results() {
         {test.questions.map((q, i) => {
           const ans = answers[i]
           let isCorrect = false
-          if (q.type === 'multiple') isCorrect = ans === q.correct
-          else if (q.type === 'truefalse') isCorrect = q.items.every((item, j) => (ans || {})[j] === item.correct)
+          let isPartial = false
+          if (q.type === 'multiple') {
+            isCorrect = ans === q.correct
+          } else if (q.type === 'truefalse') {
+            const correct = q.items.filter((item, j) => (ans || {})[j] === item.correct).length
+            isCorrect = correct === q.items.length
+            isPartial = correct === q.items.length - 1
+          }
 
           return (
-            <div key={q.id} className={`card border-l-4 ${isCorrect ? 'border-l-green-400' : 'border-l-red-400'}`}>
+            <div key={q.id} className={`card border-l-4 ${isCorrect ? 'border-l-green-400' : isPartial ? 'border-l-yellow-400' : 'border-l-red-400'}`}>
               <div className="flex items-start gap-2 mb-2">
-                <span className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}>
-                  {isCorrect ? '✓' : '✗'}
+                <span className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white ${isCorrect ? 'bg-green-500' : isPartial ? 'bg-yellow-500' : 'bg-red-500'}`}>
+                  {isCorrect ? '✓' : isPartial ? '½' : '✗'}
                 </span>
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap gap-1 mb-1">

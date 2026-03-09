@@ -57,33 +57,30 @@ export default function Quiz() {
     setAnswers(prev => ({ ...prev, [current]: val }))
   }
 
-  function handleSubmit() {
+  function calcScore(questions, answers) {
     let score = 0
-    test.questions.forEach((q, i) => {
+    questions.forEach((q, i) => {
       const ans = answers[i]
       if (q.type === 'multiple') {
         if (ans === q.correct) score++
       } else if (q.type === 'truefalse') {
-        const allCorrect = q.items.every((item, j) => (ans || {})[j] === item.correct)
-        if (allCorrect) score++
+        const correct = q.items.filter((item, j) => (ans || {})[j] === item.correct).length
+        if (correct === q.items.length) score += 1
+        else if (correct === q.items.length - 1) score += 0.5
       }
     })
+    return score
+  }
+
+  function handleSubmit() {
+    const score = calcScore(test.questions, answers)
     saveResult(id, { status: 'completed', score, total: totalQ, answers })
     navigate(`/results/${id}`)
   }
 
   function handleTimerExpire() {
     setTimerExpired(true)
-    let score = 0
-    test.questions.forEach((q, i) => {
-      const ans = answers[i]
-      if (q.type === 'multiple') {
-        if (ans === q.correct) score++
-      } else if (q.type === 'truefalse') {
-        const allCorrect = q.items.every((item, j) => (ans || {})[j] === item.correct)
-        if (allCorrect) score++
-      }
-    })
+    const score = calcScore(test.questions, answers)
     saveResult(id, { status: 'completed', score, total: totalQ, answers })
     setTimeout(() => navigate(`/results/${id}`), 2000)
   }
