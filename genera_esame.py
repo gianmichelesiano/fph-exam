@@ -29,6 +29,8 @@ from pathlib import Path
 # ─────────────────────────────────────────────
 PROMPT_TEMPLATE = """Sei un esaminatore FPH svizzero. Crea {n_domande} domande d'esame in {lingua} per farmacisti specialisti, sul tema: {argomento}.
 
+Le domande devono testare competenze pratiche secondo gli obiettivi FPH: scenari reali al banco, anamnesi e triage, validazione prescrizioni, identificazione errori di dosaggio e interazioni, rapporto beneficio-rischio, counselling al paziente, riferimenti a linee guida svizzere.
+
 Usa il formato JSON seguente:
 [
   {{

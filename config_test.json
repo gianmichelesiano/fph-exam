@@ -1,0 +1,10 @@
+{
+  "nome": "Test rapido",
+  "versione": "1.0",
+  "output_dir": "esame-test",
+  "soglia_superamento": 67,
+  "lingua": "italiano",
+  "temi": [
+    { "notebook": "interazioni", "n_domande": 2 }
+  ]
+}

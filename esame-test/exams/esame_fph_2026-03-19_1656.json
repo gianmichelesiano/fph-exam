@@ -1,0 +1,46 @@
+{
+  "esame": "Test rapido",
+  "versione": "1.0",
+  "data_creazione": "2026-03-19",
+  "totale_domande": 2,
+  "soglia_superamento": 67,
+  "distribuzione_ruoli": {
+    "ruolo_1": 2
+  },
+  "distribuzione_tipi": {
+    "multipla_scelta": 1,
+    "kprim": 1
+  },
+  "domande": [
+    {
+      "ruolo": 1,
+      "tema": "Interazioni farmacologiche - interazioni farmacologiche \nrilevanti",
+      "tipo": "multipla_scelta",
+      "domanda": "Un paziente che ha recentemente ricevuto uno stent \ncoronarico assume Clopidogrel 75 mg/die. Per una protezione gastrica, viene\nprescritto un inibitore della pompa protonica (PPI). Quale delle seguenti \nscelte è supportata dalle evidenze per minimizzare il rischio di eventi \ncardiovascolari?",
+      "opzioni": {
+        "A": "Prescrivere Omeprazolo, in quanto è il PPI con la maggiore \nefficacia clinica dimostrata.",
+        "B": "Scegliere Pantoprazolo, poiché presenta una minore interferenza\ncon l'attivazione del Clopidogrel mediata dal CYP2C19.",
+        "C": "Raddoppiare la dose di Clopidogrel a 150 mg se si utilizza \nOmeprazolo in concomitanza.",
+        "D": "Sospendere il Clopidogrel per 48 ore durante l'assunzione del \nPPI per evitare l'interazione competitiva."
+      },
+      "risposta_corretta": "B",
+      "motivazione": "Il Clopidogrel è un profarmaco che richiede \nl'attivazione enzimatica, principalmente tramite il CYP2C19 [1]. \nL'Omeprazolo è un noto inibitore del CYP2C19 e può ridurre la conversione \ndel Clopidogrel nel suo metabolita attivo, aumentando potenzialmente il \nrischio di eventi trombotici [2]. Il Pantoprazolo ha un impatto \nsignificativamente minore su questo enzima ed è quindi considerato \nl'opzione preferibile in questo contesto clinico [2].",
+      "numero": 1
+    },
+    {
+      "ruolo": 1,
+      "tema": "Validazione ricette - controindicazioni e QT",
+      "tipo": "kprim",
+      "domanda": "Una paziente di 68 anni in terapia cronica con Escitalopram\n20 mg/die riceve una prescrizione di Azitromicina (1000 mg dose singola) \nper un'infezione da Chlamydia. Valuta la validità delle seguenti \naffermazioni sulla base della sicurezza del paziente:",
+      "opzioni": {
+        "1": "Secondo le Informazioni Professionali svizzere, la combinazione\ndi Escitalopram e Azitromicina è considerata controindicata.",
+        "2": "Il rischio di aritmie ventricolari è assente poiché \nl'Azitromicina viene somministrata in un'unica dose.",
+        "3": "Il sesso femminile e l'età superiore ai 65 anni rappresentano \nfattori di rischio indipendenti per il prolungamento dell'intervallo QTc.",
+        "4": "In caso di necessità assoluta della terapia, è raccomandato \neseguire un ECG basale per monitorare l'intervallo QTc."
+      },
+      "risposta_corretta": "VFVV",
+      "motivazione": "1: Vero, la combinazione è esplicitamente segnalata \ncome controindicata a causa del rischio di prolungamento del QT e Torsione \ndi Punta [3, 4]. 2: Falso, la reazione avversa può verificarsi anche in \nseguito a una singola somministrazione [5]. 3: Vero, l'età avanzata e il \ngenere femminile sono fattori demografici che aumentano la suscettibilità \nal rischio aritmico [5, 6]. 4: Vero, la gestione dei farmaci ad alto \nrischio QT prevede il monitoraggio elettrocardiografico e il controllo \ndegli elettroliti [7, 8].",
+      "numero": 2
+    }
+  ]
+}

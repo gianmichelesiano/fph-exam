@@ -138,6 +138,18 @@
           "argomento": "vaccinazioni in farmacia, piano vaccinale svizzero, prelievo di sangue capillare, farmacovigi lanza, segnalazione effetti avversi, vaccini anti-influenzali, COVID, HPV, viaggi"
         }
       ]
+    },
+    {
+      "ruolo": 10,
+      "nome": "Lista B",
+      "batches": [
+        {
+          "id": "ruolo10",
+          "notebook": "620f2e4d-2169-4803-9611-f9413098d586",
+          "n_domande": 30,
+          "argomento": "farmaci Lista B, dispensazione su prescrizione medica, categorie di dispensazione svizzere, obbligo di ricetta, farmaci soggetti a prescrizione, dispensazione ripetuta, farmaci Lista B+"
+        }
+      ]
     }
   ]
 }

@@ -12,8 +12,12 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TESTS_DIR = os.path.join(BASE_DIR, "src", "data", "tests")
 
-# Cerca automaticamente il file esame più recente nella cartella
-_candidates = sorted(glob.glob(os.path.join(BASE_DIR, "esame_fph_*.json")), reverse=True)
+# Cerca automaticamente il file esame più recente (ordina per nome file, non per path)
+_all_candidates = (
+    glob.glob(os.path.join(BASE_DIR, "esame_fph_*.json")) +
+    glob.glob(os.path.join(BASE_DIR, "*/exams/esame_fph_*.json"))
+)
+_candidates = sorted(_all_candidates, key=os.path.basename, reverse=True)
 SOURCE_FILE = _candidates[0] if _candidates else os.path.join(BASE_DIR, "esame_fph_100_domande.json")
 TIMER_MINUTI = 210  # 3 ore e mezza
 
