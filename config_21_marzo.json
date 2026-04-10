@@ -1,0 +1,17 @@
+{
+  "nome": "FPH - Tutti gli argomenti",
+  "versione": "1.0",
+  "output_dir": "esame-tutto",
+  "soglia_superamento": 67,
+  "lingua": "italiano",
+  "temi": [
+    { "notebook": "interazioni",         "n_domande": 10 },
+    { "notebook": "intestino",           "n_domande": 10 },
+    { "notebook": "analisi_laboratorio", "n_domande": 10 },
+    { "notebook": "neurologia",          "n_domande": 10 },
+    { "notebook": "deprescrizione",      "n_domande": 10 },
+    { "notebook": "gravidanza",          "n_domande": 10 },
+    { "notebook": "insetti",             "n_domande": 10 },
+    { "notebook": "viaggi",              "n_domande": 10 }
+  ]
+}

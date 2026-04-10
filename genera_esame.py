@@ -59,7 +59,7 @@ Rispondi SOLO con l'array JSON, senza testo prima o dopo."""
 # FUNZIONI UTILITARIE
 # ─────────────────────────────────────────────
 
-DAILY_LIMIT = 50          # query/giorno NotebookLM (piano gratuito)
+DAILY_LIMIT = 9999        # nessun limite (piano a pagamento)
 _query_count = 0          # contatore globale query usate in questa sessione
 
 
@@ -442,7 +442,7 @@ def main():
             genera_batch(batch, ruolo_info, lingua, output_dir)
             if i < total_batches:
                 log(f"Pausa 90s prima del prossimo batch...", "INFO")
-                time.sleep(90)  # pausa anti-rate-limit tra batch
+                time.sleep(30)  # pausa anti-rate-limit tra batch
         except Exception as e:
             log(f"ERRORE nel batch '{batch['id']}': {e}", "ERROR")
             failed.append(batch["id"])
